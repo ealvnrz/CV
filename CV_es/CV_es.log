@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  8 MAR 2021 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  20 SEP 2021 01:04
 entering extended mode
-**./CV_spanish.tex
-(CV_spanish.tex
+**./CV_es.tex
+(CV_es.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -548,42 +548,39 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package hyperref Info: Option `colorlinks' set `true' on input line 12.
 \newparindent=\skip56
 \doubleparindent=\skip57
-) (CV_spanish.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
 )
-\openout1 = `CV_spanish.aux'.
+No file CV_es.aux.
+\openout1 = `CV_es.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 18.
 LaTeX Font Info:    Trying to load font information for LUC+nanummj on input li
-ne 20.
-
+ne 18.
 (C:\Program Files\MiKTeX\tex/latex/nanumtype1\lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 \c@mv@tabular=\count297
 \c@mv@boldtabular=\count298
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -626,14 +623,14 @@ Package microtype Warning: Command \pickup@font is not defined as expected.
 (microtype)                applied to the document.
 (microtype)                (Hint: Turn on `verbose' mode).
 
-LaTeX Info: Redefining \microtypecontext on input line 20.
+LaTeX Info: Redefining \microtypecontext on input line 18.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 20.
+LaTeX Info: Redefining \showhyphens on input line 18.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -641,7 +638,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 18.
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -653,13 +650,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
-
-(CV_spanish.out) (CV_spanish.out)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write3
-\openout3 = `CV_spanish.out'.
+\openout3 = `CV_es.out'.
 
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -677,60 +672,60 @@ LaTeX Info: Redefining \nameref on input line 20.
 \everyMPtoPDFconversion=\toks29
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 34.
+(Font)              `T1/Roboto-LF/light/n' on input line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 20.74pt on input line 34.
+(Font)              scaled to size 20.74pt on input line 32.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 37.
+nput line 35.
  (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 37.
+nput line 35.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 38.
+ input line 36.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 38.
+n input line 36.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 61.
+(Font)              `T1/Roboto-LF/light/n' on input line 59.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 61.
+(Font)              `T1/Roboto-LF/bold/n' on input line 59.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 73.
+(Font)              `T1/Roboto-LF/light/n' on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 11.00006pt on input line 73.
+(Font)              scaled to size 11.00006pt on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/sc' aliased to
-(Font)              `T1/Roboto-LF/light/sc' on input line 73.
+(Font)              `T1/Roboto-LF/light/sc' on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/sc' will be
-(Font)              scaled to size 10.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 71.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/Roboto-LF/light/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 73.
+(Font)              `T1/Roboto-LF/bold/n' on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/sc' aliased to
-(Font)              `T1/Roboto-LF/bold/sc' on input line 73.
+(Font)              `T1/Roboto-LF/bold/sc' on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/sc' will be
-(Font)              scaled to size 10.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 71.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/Roboto-LF/bold/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
-(Font)              `T1/Roboto-LF/light/it' on input line 73.
+(Font)              `T1/Roboto-LF/light/it' on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 71.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 119.
+nput line 117.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
 (C:\Program Files\MiKTeX\tex/latex/microtype\mt-cmr.cfg
@@ -738,9 +733,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 191.
+(Font)              `T1/Roboto-LF/light/n' on input line 189.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 191.
+(Font)              scaled to size 7.0pt on input line 189.
  [1
 
 
@@ -748,33 +743,39 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
 
 {C:/Users/Eloy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input li
-ne 199.
+ne 197.
 
 (C:\Program Files\MiKTeX\tex/latex/nanumtype1\lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
 )
 
 LaTeX Font Warning: Font shape `LUC/nanumgt/l/n' undefined
-(Font)              using `LUC/nanumgt/m/n' instead on input line 199.
+(Font)              using `LUC/nanumgt/m/n' instead on input line 197.
 
-[2] (CV_spanish.aux
+[2] (CV_es.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `CV_spanish.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package rerunfilecheck Warning: File `CV_es.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CV_es.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16450 strings out of 479334
- 271680 string characters out of 2866964
- 611080 words of memory out of 3000000
+ 16444 strings out of 479334
+ 271468 string characters out of 2866964
+ 612053 words of memory out of 3000000
  33519 multiletter control sequences out of 15000+200000
  465693 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,5n,85p,516b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,5n,85p,511b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Progra
 m Files/MiKTeX/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{C:/Program Files/MiKTeX/
 fonts/enc/dvips/roboto/rbto_shbyjm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
@@ -789,7 +790,7 @@ fb><C:/Program Files/MiKTeX/fonts/type1/google/roboto/Roboto-LightItalic.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmad.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_spanish.pdf (2 pages, 201018 bytes).
+Output written on CV_es.pdf (2 pages, 201057 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
