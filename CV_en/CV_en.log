@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  20 SEP 2021 04:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  20 SEP 2021 05:21
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -743,7 +743,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
 nput line 111.
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree3.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 154.
+nput line 153.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd) [1
 
@@ -756,11 +756,26 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 197.
+(Font)              `T1/Roboto-LF/light/n' on input line 196.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 197.
+(Font)              scaled to size 7.0pt on input line 196.
 Missing character: There is no  in font nanumgtm03!
 Missing character: There is no  in font nanumgtm03!
+LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
+line 237.
+
+(C:\Program Files\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
+File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
+
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' aliased to
+(Font)              `TS1/Roboto-LF/light/n' on input line 237.
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
+(Font)              scaled to size 10.0pt on input line 237.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Roboto-LF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
  [2] (CV_en.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
@@ -772,34 +787,34 @@ Package rerunfilecheck Info: File `CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16501 strings out of 479334
- 273109 string characters out of 2866964
- 609324 words of memory out of 3000000
- 33538 multiletter control sequences out of 15000+200000
- 470580 words of font info for 144 fonts, out of 3000000 for 9000
+ 16611 strings out of 479334
+ 275769 string characters out of 2866964
+ 610296 words of memory out of 3000000
+ 33624 multiletter control sequences out of 15000+200000
+ 472947 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,5n,85p,426b,631s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,5n,85p,426b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Progra
-m Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Program Files/MiKT
-eX/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
-ips/roboto/rbto_shbyjm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome
-5/fa5free1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0
-.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}<C:/Pro
-gram Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Reg
-ular.pfb><C:/Program Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5F
-ree-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pf
-b><C:/Program Files/MiKTeX/fonts/type1/google/roboto/Roboto-Light.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/google/roboto/Roboto-LightItalic.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmac.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/nanumtype1/nanumgtmad.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/nanumtype1/nanumgtmb3.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/nanumtype1/nanumgtmb8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumt
-ype1/nanumgtmc5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanu
-mgtmd5.pfb>
-Output written on CV_en.pdf (2 pages, 238985 bytes).
+m Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program Files/MiKTeX/
+fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
+ips/roboto/rbto_b5rac7.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto
+_shbyjm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}
+{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Progra
+m Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}<C:/Program Files/MiKT
+eX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><
+C:/Program Files/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/google/roboto/Roboto-Light.pfb><C:/Program Files/MiKTeX
+/fonts/type1/google/roboto/Roboto-LightItalic.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/nanumtype1/nanumgtmac.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/nanumtype1/nanumgtmad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nan
+umtype1/nanumgtmb3.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/n
+anumgtmb8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
+Output written on CV_en.pdf (2 pages, 243130 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 40449 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 44545 words of extra memory for PDF output out of 51595 (max. 10000000)
 
