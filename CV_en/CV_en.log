@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  20 SEP 2021 05:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  21 SEP 2021 20:04
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -677,75 +677,75 @@ LaTeX Info: Redefining \nameref on input line 18.
 \everyMPtoPDFconversion=\toks29
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 31.
+(Font)              `T1/Roboto-LF/light/n' on input line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 20.74pt on input line 31.
+(Font)              scaled to size 20.74pt on input line 32.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 36.
+ (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 34.
- (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
+nput line 36.
+
+(C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 34.
+nput line 36.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 35.
+ input line 37.
 
 (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 35.
+n input line 37.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 55.
+(Font)              `T1/Roboto-LF/light/n' on input line 57.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 12.0pt on input line 55.
+(Font)              scaled to size 12.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 55.
+(Font)              `T1/Roboto-LF/bold/n' on input line 57.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 55.
+(Font)              scaled to size 12.0pt on input line 57.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 66.
+(Font)              `T1/Roboto-LF/light/n' on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 11.00006pt on input line 66.
+(Font)              scaled to size 11.00006pt on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/sc' aliased to
-(Font)              `T1/Roboto-LF/light/sc' on input line 66.
+(Font)              `T1/Roboto-LF/light/sc' on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/sc' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 68.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/Roboto-LF/light/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 66.
+(Font)              `T1/Roboto-LF/bold/n' on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/sc' aliased to
-(Font)              `T1/Roboto-LF/bold/sc' on input line 66.
+(Font)              `T1/Roboto-LF/bold/sc' on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/sc' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 68.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/Roboto-LF/bold/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/it' aliased to
-(Font)              `T1/Roboto-LF/light/it' on input line 66.
+(Font)              `T1/Roboto-LF/light/it' on input line 68.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/it' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 68.
 LaTeX Font Info:    Trying to load font information for LUC+nanumgt on input li
-ne 77.
+ne 79.
 
 (C:\Program Files\MiKTeX\tex/latex/nanumtype1\lucnanumgt.fd
 File: lucnanumgt.fd 2013/02/12 v0.1 Nanum Gothic font definitions
 )
 
 LaTeX Font Warning: Font shape `LUC/nanumgt/l/n' undefined
-(Font)              using `LUC/nanumgt/m/n' instead on input line 77.
+(Font)              using `LUC/nanumgt/m/n' instead on input line 79.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 111.
-(C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree3.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 153.
-
-(C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd) [1
+nput line 113.
+(C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree3.fd) [1
 
 
 
@@ -756,22 +756,22 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 196.
+(Font)              `T1/Roboto-LF/light/n' on input line 198.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 196.
+(Font)              scaled to size 7.0pt on input line 198.
 Missing character: There is no  in font nanumgtm03!
 Missing character: There is no  in font nanumgtm03!
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 237.
+line 240.
 
 (C:\Program Files\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' aliased to
-(Font)              `TS1/Roboto-LF/light/n' on input line 237.
+(Font)              `TS1/Roboto-LF/light/n' on input line 240.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
-(Font)              scaled to size 10.0pt on input line 237.
+(Font)              scaled to size 10.0pt on input line 240.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -787,15 +787,15 @@ Package rerunfilecheck Info: File `CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16611 strings out of 479334
- 275769 string characters out of 2866964
- 610296 words of memory out of 3000000
- 33624 multiletter control sequences out of 15000+200000
- 472947 words of font info for 157 fonts, out of 3000000 for 9000
+ 16615 strings out of 479334
+ 275849 string characters out of 2866964
+ 610564 words of memory out of 3000000
+ 33627 multiletter control sequences out of 15000+200000
+ 473204 words of font info for 158 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,5n,85p,426b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Progra
-m Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program Files/MiKTeX/
+{C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program F
+iles/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Program Files/MiKTeX/
 fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
 ips/roboto/rbto_b5rac7.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto
 _shbyjm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}
@@ -807,14 +807,16 @@ ogram Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><
 C:/Program Files/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/google/roboto/Roboto-Light.pfb><C:/Program Files/MiKTeX
 /fonts/type1/google/roboto/Roboto-LightItalic.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/nanumtype1/nanumgtmac.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/nanumtype1/nanumgtmad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nan
-umtype1/nanumgtmb3.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/n
-anumgtmb8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_en.pdf (2 pages, 243130 bytes).
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1
+/nanumgtmac.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtm
+ad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
+Output written on CV_en.pdf (2 pages, 260494 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  44545 words of extra memory for PDF output out of 51595 (max. 10000000)
 
