@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  29 SEP 2021 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  29 SEP 2021 22:53
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -756,27 +756,27 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 198.
+(Font)              `T1/Roboto-LF/light/n' on input line 200.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 198.
+(Font)              scaled to size 7.0pt on input line 200.
 Missing character: There is no  in font nanumgtm03!
 Missing character: There is no  in font nanumgtm03!
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 240.
+line 270.
 
 (C:\Program Files\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' aliased to
-(Font)              `TS1/Roboto-LF/light/n' on input line 240.
+(Font)              `TS1/Roboto-LF/light/n' on input line 270.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
-(Font)              scaled to size 10.0pt on input line 240.
+(Font)              scaled to size 10.0pt on input line 270.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2] (CV_en.aux
+ [2] [3] (CV_en.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -787,13 +787,13 @@ Package rerunfilecheck Info: File `CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16615 strings out of 479334
- 275849 string characters out of 2866964
- 610932 words of memory out of 3000000
- 33627 multiletter control sequences out of 15000+200000
- 473204 words of font info for 158 fonts, out of 3000000 for 9000
+ 16638 strings out of 479334
+ 276390 string characters out of 2866964
+ 611283 words of memory out of 3000000
+ 33626 multiletter control sequences out of 15000+200000
+ 475931 words of font info for 173 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,5n,85p,426b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,5n,85p,418b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program F
 iles/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Program Files/MiKTeX/
 fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
@@ -814,9 +814,9 @@ ad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_en.pdf (2 pages, 260761 bytes).
+Output written on CV_en.pdf (3 pages, 261869 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  44545 words of extra memory for PDF output out of 51595 (max. 10000000)
 
