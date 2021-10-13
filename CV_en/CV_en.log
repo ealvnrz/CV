@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  8 OCT 2021 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  11 OCT 2021 22:46
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -754,22 +754,22 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
-(Font)              `T1/Roboto-LF/light/n' on input line 200.
+(Font)              `T1/Roboto-LF/light/n' on input line 201.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
-(Font)              scaled to size 7.0pt on input line 200.
+(Font)              scaled to size 7.0pt on input line 201.
 Missing character: There is no  in font nanumgtm03!
 Missing character: There is no  in font nanumgtm03!
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 270.
+line 271.
 
 (C:\Program Files\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/l/n' aliased to
-(Font)              `TS1/Roboto-LF/light/n' on input line 270.
+(Font)              `TS1/Roboto-LF/light/n' on input line 271.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/light/n' will be
-(Font)              scaled to size 10.0pt on input line 270.
+(Font)              scaled to size 10.0pt on input line 271.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -791,7 +791,7 @@ Here is how much of TeX's memory you used:
  34379 multiletter control sequences out of 15000+600000
  475931 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,5n,85p,418b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,5n,85p,418b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program F
 iles/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Program Files/MiKTeX/
 fonts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
@@ -812,9 +812,9 @@ ad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_en.pdf (3 pages, 275350 bytes).
+Output written on CV_en.pdf (3 pages, 275596 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  44545 words of extra memory for PDF output out of 51595 (max. 10000000)
 
