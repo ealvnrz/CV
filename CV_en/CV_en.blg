@@ -1,48 +1,48 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: CV_en.aux
-I found no \citation commands---while reading file CV_en.aux
-I found no \bibdata command---while reading file CV_en.aux
-I found no \bibstyle command---while reading file CV_en.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 484 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Database file #1: articles.bib
+You've used 2 entries,
+            1791 wiz_defined-function locations,
+            457 strings with 4283 characters,
+and the built_in function-call counts, 642 in all, are:
+= -- 40
+> -- 64
+< -- 1
++ -- 22
+- -- 20
+* -- 54
+:= -- 123
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 2
+duplicate$ -- 22
+empty$ -- 39
+format.name$ -- 20
+if$ -- 129
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 4
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 13
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 19
+swap$ -- 7
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+while$ -- 5
+width$ -- 3
+write$ -- 24
