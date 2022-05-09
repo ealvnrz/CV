@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  27 MAR 2022 04:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  9 MAY 2022 03:13
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -768,8 +768,6 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/l/n' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/light/n' will be
 (Font)              scaled to size 7.0pt on input line 206.
  (CV_en.bbl)
-Missing character: There is no  in font nanumgtm03!
-Missing character: There is no  in font nanumgtm03!
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
 line 282.
 
@@ -796,11 +794,11 @@ Package rerunfilecheck Info: File `CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17340 strings out of 478927
- 290400 string characters out of 2862395
- 637085 words of memory out of 3000000
- 34736 multiletter control sequences out of 15000+600000
- 474199 words of font info for 163 fonts, out of 8000000 for 9000
+ 17327 strings out of 478927
+ 290052 string characters out of 2862395
+ 637456 words of memory out of 3000000
+ 34738 multiletter control sequences out of 15000+600000
+ 472109 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,5n,85p,418b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{C:/Program F
@@ -823,9 +821,9 @@ ad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_en.pdf (3 pages, 275894 bytes).
+Output written on CV_en.pdf (3 pages, 275885 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
  44545 words of extra memory for PDF output out of 51595 (max. 10000000)
 
