@@ -5,44 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Database file #1: articles.bib
-You've used 3 entries,
+Warning--there's a number but no volume in Beltran2022a
+You've used 4 entries,
             1791 wiz_defined-function locations,
-            462 strings with 4577 characters,
-and the built_in function-call counts, 936 in all, are:
-= -- 66
-> -- 81
+            470 strings with 4915 characters,
+and the built_in function-call counts, 1181 in all, are:
+= -- 86
+> -- 98
 < -- 2
-+ -- 28
-- -- 25
-* -- 73
-:= -- 169
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 3
++ -- 34
+- -- 30
+* -- 96
+:= -- 211
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 36
-empty$ -- 62
-format.name$ -- 25
-if$ -- 196
+cite$ -- 5
+duplicate$ -- 45
+empty$ -- 82
+format.name$ -- 30
+if$ -- 246
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 7
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 4
+pop$ -- 9
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 22
+skip$ -- 23
 stack$ -- 0
-substring$ -- 35
-swap$ -- 13
+substring$ -- 48
+swap$ -- 14
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 9
-width$ -- 4
-write$ -- 35
+warning$ -- 1
+while$ -- 12
+width$ -- 5
+write$ -- 46
+(There was 1 warning)
