@@ -14,7 +14,7 @@
 \usepackage{fontawesome5}
 \usepackage{natbib}
 \usepackage{bibentry}
-
+\usepackage{graphicx}
 
 \include{structure} 
 %\hyphenation{Some-long-word} 
@@ -25,20 +25,20 @@
 %----------------------------------------------------------------------------------------
 \newcommand{\name}{Eloy Alvarado Narváez}
 \newcommand{\dob}{August 18, 1990}
-\newcommand{\address}{Valparaíso, Chile.}
+\newcommand{\address}{Morris \# 776, Dpto \# 1009 Valparaíso, Chile.}
 \newcommand{\phone}{+56 9 85682232}
 \newcommand{\email}{ealvaradonarvaez@gmail.com}
 \newcommand{\github}{ealvnrz}
 \newcommand{\linkedin}{ealvnrz}
+\newcommand{\vertical}{\hspace{5pt}|\hspace{5pt}}
+\newcommand{\gscholarIcon}{\raisebox{-0.1cm}{\includegraphics[height=\baselineskip]{../CV_en/google-scholar.png}}}
 
 \begin{center}
 \huge\name \\
-
 \normalsize PhD candidate and university lecturer \\
-\address\\
-\faCalendar*[regular]\ \dob \hspace{5pt}|\hspace{5pt}\faIcon{mobile-alt}\ \phone \hspace{5pt}|\hspace{5pt} \faIcon[regular]{envelope}\ \href{mailto:\email}{\email}
-\hspace{5pt}|\hspace{5pt} \faIcon{github} \ \href{https://github.com/ealvnrz}{\github}
-\hspace{5pt}|\hspace{5pt} \faIcon{linkedin} \ \href{https://www.linkedin.com/in/ealvnrz/}{\linkedin}
+\faHome\ \address \vertical   \faCalendar*[regular]\ \dob \vertical\faIcon{mobile-alt}\ \phone  \\
+\faIcon[regular]{envelope}\ \href{mailto:\email}{\email}
+\vertical \faIcon{github} \ \href{https://github.com/ealvnrz}{\github} \vertical \faIcon{linkedin} \ \href{https://www.linkedin.com/in/ealvnrz/}{\linkedin} \vertical \gscholarIcon \href{https://scholar.google.cl/citations?user=iO2zYZoAAAAJ&hl=es}{Google Scholar} \\
 \end{center}
 
 %\spacedhrule{0.9em}{-0.4em} 
@@ -91,8 +91,7 @@
 {2013 -- 2015}
 {\bodytext{Teaching assistant for introductory and advanced courses (3-4 each semester)\\
 Thesis title: ``\textit{Ecuaciones diferenciales estocásticas con aplicación en matemática financiera: Modelo de Black-Scholes}'' (Stochastic differential equations with applications in mathematical finance: The Black-Scholes model).\ Graduation grade: 6.1 (1-7 scale).}
-\textbf{DREAMS program}: To
-Develop Research of Excellence for Advanced Meritorious Students \ 
+\textbf{DREAMS program}: \textit{To Develop Research of Excellence for Advanced Meritorious Students} \ 
 \bodytext{Research assistant under supervision of Prof. Natalia Bahamonde: ARCH models with weighted liquidity.}}
 }
 
@@ -119,7 +118,7 @@ Develop Research of Excellence for Advanced Meritorious Students \
 {\href{https://ideuv.uv.cl/}{Instituto de Estadística, Universidad de Valparaíso }}
 {\textsc{Valparaíso, Chile}} {
 \headedsubsection 
-{University lecturer}
+{University Lecturer}
 {August '19 -- Present}
 {\bodytext{Lecturer of several courses for undergraduate programs:\\
  Data Science and Statistical Engineering, Construction Engineering \& Bachelor in Physics.
@@ -128,13 +127,13 @@ Develop Research of Excellence for Advanced Meritorious Students \
   \item IEST 213: Statistical Methods %[2019]
   \item IEST 322 \& IEST 422: Sampling theory I and II, respectively %[2019,2020,2021]
   \item IEC 311: Probability and statistics %[2020,2021]
-  \item LFIS 325: Statistics for physical sciences %[2020,2021]
+  \item LFIS 325: Statistics for physical sciences %[2020,2021,2022]
   \item IECD 325: Linear models and experimental designs. %[2021]
   \item IECD 411: Machine learning %[2022]
   \item IECD 414: Time series %[2022]
   \item IECD 415: Multivariate methods %[2022]
   \end{itemize}
-  Lecture notes can be found in personal \href{https://github.com/ealvnrz}{github}.
+  Lecture notes and related codes can be found in personal \href{https://github.com/ealvnrz}{github}.
 }}}
 
 \headedsection 

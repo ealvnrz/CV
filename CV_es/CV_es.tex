@@ -12,32 +12,36 @@
 \usepackage{amsmath}
 \usepackage{kotex}
 \usepackage{fontawesome5}
+\usepackage{natbib}
+\usepackage{bibentry}
+\usepackage{graphicx}
+
 
 \include{structure} 
-%\hyphenation{Some-long-word} 
 \begin{document} 
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
+
 \newcommand{\name}{Eloy Alvarado Narváez}
-\newcommand{\datebirth}{18 de agosto, 1990}
-\newcommand{\address}{Valparaíso, Chile.}
+\newcommand{\dob}{August 18, 1990. Estado civil: Soltero}
+\newcommand{\address}{Morris \# 776, Dpto \# 1009 Valparaíso, Chile.}
 \newcommand{\phone}{+56 9 85682232}
 \newcommand{\email}{ealvaradonarvaez@gmail.com}
 \newcommand{\github}{ealvnrz}
 \newcommand{\linkedin}{ealvnrz}
+\newcommand{\vertical}{\hspace{5pt}|\hspace{5pt}}
+\newcommand{\gscholarIcon}{\raisebox{-0.1cm}{\includegraphics[height=\baselineskip]{../CV_en/google-scholar.png}}}
 
 \begin{center}
-\huge\name\\
-\normalsize Candidato a doctor y profesor universitario\\
-\address\\
-\faIcon{mobile-alt} \phone \hspace{5pt}|\hspace{5pt} \faIcon[regular]{envelope} \href{mailto:\email}{\email}
-\hspace{5pt}|\hspace{5pt} \faIcon{github} \href{https://github.com/ealvnrz}{\github}
-\hspace{5pt}|\hspace{5pt} \faIcon{linkedin} \href{https://www.linkedin.com/in/ealvnrz/}{\linkedin}
+\huge\name \\
+\normalsize Candidato a Doctor en Estadística y profesor universitario \\
+\faHome\ \address \vertical   \faCalendar*[regular]\ \dob \vertical\faIcon{mobile-alt}\ \phone  \\
+\faIcon[regular]{envelope}\ \href{mailto:\email}{\email}
+\vertical \faIcon{github} \ \href{https://github.com/ealvnrz}{\github} \vertical \faIcon{linkedin} \ \href{https://www.linkedin.com/in/ealvnrz/}{\linkedin} \vertical \gscholarIcon \href{https://scholar.google.cl/citations?user=iO2zYZoAAAAJ&hl=es}{Google Scholar} \\
 \end{center}
-
-%\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%\spacedhrule{0.9em}{-0.4em} 
 
 %----------------------------------------------------------------------------------------
 %	SUMMARY SECTION
@@ -45,66 +49,59 @@
 
 %\roottitle{Summary} 
 %\vspace{-0.3em} 
-%\noindent Statistician with a vast knowledge in various areas specialized in large quantitative analysis. My strengths %lies on a highly commitment with proposed goals and the effort I do in order to accomplish them, due to this my biggest %weakness is that I'm not tolerant to lack of commitment.
+%\noindent Statistician+
 %\spacedhrule{0.5em}{-0.4em} 
-
-
-
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 
 
-\roottitle{\faIcon{graduation-cap} Educación \hrulefill } % Top level section
+\roottitle{\faIcon{graduation-cap} Educación \hrulefill } 
 
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+\headedsection 
 {\href{https://ideuv.uv.cl/index.php/es/?view=page&id=91}{Universidad de Valparaíso}}
 {\textsc{Valparaíso, Chile}}
  {
-\headedsubsection % Job title entry for the current employer
+\headedsubsection 
 {\textsc{Doctorado en Estadística}}
-{2017 -- Actualidad}
-{\bodytext{Candidato a Doctor: ''Clayton copula random fields with application to
-spatial data with bounded support". \\Profesor Guía: Moreno Bevilacqua.}}
+{2018 -- Actualidad}
+{\bodytext{Candidato a doctor bajo la supervisión del Prof. Moreno Bevilacqua y co-supervisión del Prof. Christian Caamaño.\ Título de tesis: ``Clayton copula random fields with application to spatial data with bounded support''.}}
 }
 
-
-
 %------------------------------------------------
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.korea.ac.kr}{Korea University}}
+\headedsection 
+{\href{http://www.korea.ac.kr}{Korea University / 고려대학교 }}
 {\textsc{Seúl, Corea del Sur}}
  {
-\headedsubsection % Job title entry for the current employer
-{\textsc{Intercambio Estudiantil}}
+\headedsubsection 
+{\textsc{Intercambio estudiantil}}
 {2014 -- 2014}
-{\bodytext{Curso de Minería de Datos, utilizando SAS BASE, E-Miner y R.}}
+{\bodytext{Cursos relevantes: ``Introduction to Data Mining" (utilizando SAS BASE, E-Miner y R) y ``Advanced reading and discussion in English".}}
 }
 
-
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.pucv.cl}{Pontificia Universidad Cat\'olica de Valpara\'iso}}
-{\textsc{Valpara\'iso, Chile}} {
-
-\headedsubsection % Job title entry for the current employer
-{Licenciatura en Estadística / Estadístico}
-{2013 -- 2015}
-{\bodytext{Ayudante de Cátedra de cursos introductorios y avanzados (3-4 cursos por semestre)\\ Título Tesis: "\textit{Ecuaciones diferenciales estocásticas con aplicación en matemática financiera: Modelo de Black-Scholes}"\ Nota Graduación: 6.1 (escala 1-7) }\textbf{Seleccionado programa DREAMS}: To
-Develop Research of Excellence for Advanced Meritorious Students\bodytext{Ayudante de Investigación: Modelos ARCH con liquidez ponderada.}}
-}
-
-
-%------------------------------------------------
-
-
-\headedsection
-{\href{http://www.usm.cl}{Universidad T\'ecnica Federico Santa Mar\'ia}}
+\headedsection 
+{\href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}
 {\textsc{Valpara\'iso, Chile}} {
 
 \headedsubsection 
-{Ingeniería Civil Matemática, \textnormal{Mención estadística aplicada (descontinuado)}}
+{Licenciatura en Estadística / Estadístico }
+{2013 -- 2015}
+{\bodytext{Ayudante de Cátedra de cursos introductorios y avanzados (3-4 cursos por semestre)\\
+Título de tesis: ``\textit{Ecuaciones diferenciales estocásticas con aplicación en matemática financiera: Modelo de Black-Scholes}''.\ Nota de graduación: 6.1 (escala 1-7).}
+\textbf{DREAMS program}: \textit{To Develop Research of Excellence for Advanced Meritorious Students} \ 
+\bodytext{Ayudante de investigación bajo la supervisión de la Prof. Natalia Bhamonde: Modelos ARCH con liquidez ponderada.}}
+}
+
+%------------------------------------------------
+
+\headedsection
+{\href{http://www.usm.cl}{Universidad Técnica Federico Santa María}}
+{\textsc{Valparaíso, Chile}} {
+
+\headedsubsection 
+{Ingeniería Civil Matemática, \textnormal{Mención estadística aplicada (descontinuado).}}
 {2009 -- 2012} {}
 }
 
@@ -114,29 +111,46 @@ Develop Research of Excellence for Advanced Meritorious Students\bodytext{Ayudan
 %	TEACHING SECTION
 %----------------------------------------------------------------------------------------
 
-\roottitle{\faIcon{chalkboard} Experiencia Académica \hrulefill}
+\roottitle{\faUniversity\ Experiencia Académica \hrulefill}
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{https://ideuv.uv.cl/}{Instituto de Estadística, Universidad de Valparaíso}}
+\headedsection 
+{\href{https://ideuv.uv.cl/}{Instituto de Estadística, Universidad de Valparaíso }}
 {\textsc{Valparaíso, Chile}} {
-\headedsubsection % Job title entry for the current employer
-{Docente Universitario}
+\headedsubsection 
+{Profesor Universitario}
 {Agosto '19 -- Actualidad}
-{\bodytext{Profesor de cursos de pregrado para la carrera de ingeniería en estadística.
+{\bodytext{Docente de cursos de pregrado para los programas de:\\
+ Ingeniería en Estadística y Ciencia de datos, Ingeniería en Construcción y Licenciatura en Física.
+  \\ \textbf{Lista de cursos}:
+  \begin{itemize}
+  \item IEST 213: Métodos estadísticos %[2019]
+  \item IEST 322 \& IEST 422: Muestreo I y II, respectivamente %[2019,2020,2021]
+  \item IEC 311: Probabilidad y estadística %[2020,2021]
+  \item LFIS 325: Estadística para ciencias físcias %[2020,2021,2022]
+  \item IECD 325: Modelos lineales y diseño de experimentos %[2021]
+  \item IECD 411: Machine learning %[2022]
+  \item IECD 414: Series de tiempo %[2022]
+  \item IECD 415: Métodos multivariados %[2022]
+  \end{itemize}
+  Apuntes de clase, presentaciones y códigos están disponible en repositorio \href{https://github.com/ealvnrz}{github}.
 }}}
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+\headedsection 
 {\href{http://www.estadistica.cl}{Instituto de Estadística, Pontificia Universidad Católica de Valparaíso}}
 {\textsc{Valparaíso, Chile}} {
-\headedsubsection % Job title entry for the current employer
-{Talleres Docencia Universitaria}
+\headedsubsection 
+{Talleres de docencia universitaria}
 {Enero '18 -- Febrero '18}
-{\bodytext{Asistente talleres en docencia universitaria organizado por la Unidad de Mejoramiento de la Docencia Universitaria (UMDU) : \textit{''Aprendizaje Activo: Diseñando mi clase''} y \textit{''Evaluar y Retroalimentar con apoyo de las TIC''}.
+{\bodytext{Organizado por la \href{http://innovaciondocente.ucv.cl/}{\textit{Unidad de Mejoramiento de la Docencia Universitaria (UMDU)}}:
+\begin{itemize}
+\item \textit{``Aprendizaje Activo: Diseñando mi clase''} 
+\item \textit{``Evaluar y Retroalimentar con apoyo de las TIC''} 
+\end{itemize}
 }}
-\headedsubsection % Job title entry for the current employer
-{Docente Universitario}
+\headedsubsection 
+{Profesor Universitario}
 {Marzo '17 -- Diciembre '17}
-{\bodytext{Los cursos dictados consisten en asignaturas de Probabilidad y Estadística para alumnos de Ingeniería Eléctrica y Electrónica. Coordinador asignatura EST205, 2do semestre 2018.
+{\bodytext{Docente universitario para cursos de pregrado para los programas de Ingeniería Eléctrica y Electrónica.
 }}}
 
 %----------------------------------------------------------------------------------------
@@ -144,70 +158,156 @@ Develop Research of Excellence for Advanced Meritorious Students\bodytext{Ayudan
 %----------------------------------------------------------------------------------------
 
 \roottitle{\faIcon{briefcase} Experiencia Profesional \hrulefill}
+%------------------------------------------------
+\headedsection 
+{\href{http://www.ifop.cl}{Instituto de Fomento Pesquero}}
+{\textsc{Remoto / Valparaíso, Chile}} {
+
+\headedsubsection 
+{Consultor Externo}
+{Julio '21 -- Actualidad}
+{\bodytext{Asesor en el área de modelamiento espacio-temporal para el proyecto \textit{``Marine Mammal Bycatch Risk Assessment in Chile''}, financiado por la Universidad Estatal de San Francisco (SFSU).
+}}}
+
 
 %------------------------------------------------
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+\headedsection 
 {\href{http://www.equifax.com}{Equifax Inc.}}
 {\textsc{Santiago, Chile / Atlanta, USA}} {
 
-\headedsubsection % Job title entry for the current employer
+\headedsubsection 
 {Analista Estadístico}
 {Abril '16 -- Febrero '17}
-{\bodytext{Analista estadístico del grupo de Data \& Analytics, Advanced Analytics. Encargado de actuar como puente entre los analistas estadísticos en Alpharetta, USA y el centro de desarrollo de software en Chile. Entre las actividades realizadas cuentan: validación de modelos de creación de atributos, validación de base de datos, optimización y soporte de códigos SAS, administrador SAS, soporte estadístico dentro de un entorno distribuido.}}}
+{\bodytext{Analista estadístico del grupo de Data \& Analytics, Advanced Analytics. Encargado de actuar como puente entre los analistas estadísticos en Alpharetta, USA y el centro de desarrollo de software en Chile. Entre las actividades realizadas cuentan: validación de modelos de creación de atributos, validación de base de datos, optimización y soporte de códigos SAS, administrador SAS, soporte estadístico dentro de un entorno distribuido.
+}}}
 
 %------------------------------------------------
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+\headedsection 
 {\href{http://www.banchileinversiones.cl}{Banchile Inversiones}}
 {\textsc{Santiago, Chile}} {
 
-\headedsubsection % Job title entry for the current employer
+\headedsubsection 
 {Práctica Profesional}
 {Enero '15 -- Febrero '15}
-{\bodytext{Práctica en la división de Inteligencia de Negocios, trabajando en la creación de modelos predictivos para capturar nuevos clientes de un producto específico de inversión ofrecido por la empresa. Mi labor fue la completa creación del modelo, extracción de la información necesaria desde las bases de datos de BI y posterior presentación de los resultados a la administración. }}}
-
-%------------------------------------------------
-
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{Consultoría Freelance}
-{\textsc{Valparaíso, Chile}} {
-
-\headedsubsection % Job title entry for the current employer
-{Data analysis Consultant}
-{2013 -- 2014}
-{\bodytext{Consultoría Freelance para tesis de ciencias sociales. (Pregrado y Postgrado)}}}
-
-
+{\bodytext{Práctica en la división de Inteligencia de Negocios, trabajando en la creación de modelos predictivos para capturar nuevos clientes de un producto específico de inversión ofrecido por la empresa. Mi labor fue la completa creación del modelo, extracción de la información necesaria desde las bases de datos de BI y posterior presentación de los resultados a la administración.}}}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\roottitle{\faIcon{cog} Habilidades \hrulefill} % Top level section
+\roottitle{\faIcon{cog} Habilidades \hrulefill} 
 
-\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
-{Especialidades Técnicas:}
-{Analista de texto y grandes datos cuantitativos, utilizando técnicas de Data Mining. Alta Compentencia en: \LaTeX, SAS BASE, SAS E-MINER/EG, R, MS Suite, SPSS, STATA, MiniTab. Competencia Media: SQL, Hadoop Enviroment, Tableau, ggplot2.}
-
-%------------------------------------------------
-\inlineheadsection
+\headedsubsection 
+{Lenguajes de programación:}
 {}
-{}
-\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
-{Idiomas:}
-{Español/Spanish \textit{(lengua materna)}, Inglés/English \textit{(Full professional proficiency, TOEFL iBT score: 90, november-2015)}, Coreano/한국어 \textit{(Beginner A2, Korea University)}, Francés/Français \textit{(Beginner A1, Institut Français).}}
+{\bodytext{R, Python, C++, \LaTeX, SQL, SAS.}}
 
-%------------------------------------------------
+
+\headedsubsection 
+{Softwares:}
+{}
+{\bodytext{Tableau, SPSS, STATA, GeoDa, QGIS, MS suite.}}
+
+\headedsubsection 
+{Lenguajes:}
+{}
+{\bodytext{Español/Spanish \textit{(native language)}, English \textit{(Full professional proficiency, TOEFL iBT score: 90, November, 2015)}, Korean/한국어 \textit{(Beginner A2, Korea University)}, French/Français \textit{(Beginner A1, Institut Français).}}}
 
 
 %----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
+%	RESEARCH AND SCIENTIFIC EVENTS
 %----------------------------------------------------------------------------------------
-\roottitle{\faIcon{comments} Eventos Científicos \hrulefill}
+
+
+\roottitle{\faIcon[regular]{file-alt} Investigación \hrulefill}
+%fix with .bib once published
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH AND SCIENTIFIC EVENTS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	ACCEPTED OR PUBLISHED RESEARCH ARTICLES
+%----------------------------------------------------------------------------------------
+
+\nobibliography{../CV_en/articles}
+\bibliographystyle{unsrt}
+
+\headedsubsection 
+{Artículos aceptados o publicados:}{}
+{
 \begin{enumerate}
-\item Asistente, XIX Semana de la Estadística de Valparaíso, Valparaíso, Chile, 2013. \\ Organizador:  \href{http://www.upla.cl}{Universidad de Playa Ancha}
-\item Presentador, "\textit{Ecuaciones diferenciales estocásticas con aplicación en matemática financiera: Modelo de Black-Scholes}", XXI Semana de la Estadística de Valparaíso, Valparaíso, Chile, 2015. \\ Organizador: \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}
-\item Asistente, XLII Jornada Nacional de Estadística, Concepción, Chile, 2015. \\
-Organizador:  \href{http://www.soche.cl}{Sociedad Chilena de Estadística}
+\item \bibentry{Stehlik2022}
+
+\item \bibentry{Beltran2022}
+
+\item \bibentry{Beltran2022a}
+
+\item \bibentry{SanzanaLuengo2022}
+
 \end{enumerate}
+}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	UNDER REVIEW
+%----------------------------------------------------------------------------------------
+
+%\headedsubsection 
+%{Manuscripts under review:}{}
+%{\begin{enumerate}
+%\item 
+%\end{enumerate}
+%}
+
+%----------------------------------------------------------------------------------------
+%	WORKING ARTICLES
+%----------------------------------------------------------------------------------------
+
+\headedsubsection 
+{Artículos en desarrollo:}{}
+{\begin{enumerate}
+\item Moreno Bevilacqua, Eloy Alvarado, Christian Caamaño, Fernando Quintana. \textit{``Clayton copula random fields with application to spatial data with bounded support''}. \textit{finishing the manuscript}.
+\item Marco Flores, Eloy Alvarado , Christina Sanzana-Luengo. \textit{``Experience of caries and tooth loss in the chilean elderly population benefited by TEGO project in the context of Covid-19 pandemic.''}. \textit{finishing the manuscript}.
+\item Eloy Alvarado, Héctor Araya and Nicolás Moreno. \textit{``Least square estimation for fractional CIR process with $H>1/2$ and small noise''}.
+\end{enumerate}
+}
+
+%----------------------------------------------------------------------------------------
+%	GRANTS AND PROJECTS
+%----------------------------------------------------------------------------------------
+\roottitle{\faFileInvoiceDollar \ Becas y proyectos \hrulefill}
+\begin{itemize}
+\item Beca de doctorado Nacional, ANID, 2018. N° 2018-21180953.
+\item \textit{``Semi-presential technological support platform for urgent and
+priority dental care for the elderly in the context of the COVID-19 pandemic in the Chilean population''}, funded by the Rapid Allocation of Funds of the National Agency of Research and
+Development (ANID), Reference No. COVID0766, Chile. Collaborator.
+\end{itemize}
+
+
+
+
+\roottitle{\faComments[regular] Eventos Científicos \hrulefill}
+\begin{itemize}
+\item Asistente, Data Science Workshop, Remoto/Valparaíso, Chile, 2021.\\
+Organizador: \href{https://ideuv.uv.cl/}{Instituto de Estadística, Universidad de Valparaíso}
+
+\item Asistente, XLII Jornada Nacional de Estadística, Concepción, Chile, 2015. \\
+Organizador:  \href{http://www.soche.cl}{ Chilean Statistical
+Society}
+\item Expositor, ``\textit{Stochastics differential equations in mathematical finance: The Black-Scholes Model}'', XXI Semana de la Estadística de Valparaíso, Valparaíso, Chile, 2015. \\ Organizador: \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}
+
+\item Asistente, XIX Semana de la Estadística de Valparaíso, Valparaíso, Chile, 2013. \\ Organizador:  \href{http://www.upla.cl}{Universidad de Playa Ancha}
+
+
+\end{itemize}
+
+
+
+
+
 
 \end{document}
