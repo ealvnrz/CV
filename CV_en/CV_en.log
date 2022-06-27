@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  16 JUN 2022 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.29)  27 JUN 2022 17:36
 entering extended mode
 **./CV_en.tex
 (CV_en.tex
@@ -822,8 +822,8 @@ Package rerunfilecheck Info: File `CV_en.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17651 strings out of 478927
- 295062 string characters out of 2862395
+ 17652 strings out of 478927
+ 295072 string characters out of 2862395
  643109 words of memory out of 3000000
  35043 multiletter control sequences out of 15000+600000
  471646 words of font info for 149 fonts, out of 8000000 for 9000
@@ -849,9 +849,9 @@ ad.pfb><C:/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb3.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmb8.pfb><C:/Program
  Files/MiKTeX/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/nanumtype1/nanumgtmd5.pfb>
-Output written on CV_en.pdf (3 pages, 279696 bytes).
+Output written on CV_en.pdf (3 pages, 281079 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  44550 words of extra memory for PDF output out of 51595 (max. 10000000)
 
