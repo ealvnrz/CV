@@ -1,8 +1,8 @@
-PWD c:/Users/ealva/Documents/GitHub/CV/cv_en
+PWD c:/Users/Eloy/Documents/GitHub/cv/cv_en
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/ealva/Documents/GitHub/CV/cv_en/cv_en.tex
+INPUT c:/Users/Eloy/Documents/GitHub/cv/cv_en/cv_en.tex
 OUTPUT cv_en.log
 INPUT c:/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
 INPUT c:/texlive/2022/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -388,7 +388,6 @@ INPUT c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT c:/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
@@ -425,7 +424,7 @@ INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
@@ -445,7 +444,6 @@ INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
@@ -457,6 +455,7 @@ INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
+INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -550,7 +549,6 @@ INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 INPUT c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
