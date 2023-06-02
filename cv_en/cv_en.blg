@@ -4,45 +4,45 @@ The top-level auxiliary file: cv_en.aux
 The style file: unsrt.bst
 Database file #1: publications.bib
 Warning--there's a number but no volume in Beltran2022a
-You've used 5 entries,
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            480 strings with 5411 characters,
-and the built_in function-call counts, 1474 in all, are:
-= -- 103
-> -- 127
+            484 strings with 5616 characters,
+and the built_in function-call counts, 1634 in all, are:
+= -- 115
+> -- 138
 < -- 2
-+ -- 44
-- -- 39
-* -- 128
-:= -- 265
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 5
++ -- 48
+- -- 42
+* -- 136
+:= -- 295
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 54
-empty$ -- 103
-format.name$ -- 39
-if$ -- 304
+cite$ -- 7
+duplicate$ -- 62
+empty$ -- 117
+format.name$ -- 42
+if$ -- 338
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 5
-pop$ -- 10
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 13
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 26
+skip$ -- 29
 stack$ -- 0
 substring$ -- 60
-swap$ -- 15
+swap$ -- 16
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 14
-width$ -- 6
-write$ -- 57
+while$ -- 15
+width$ -- 7
+write$ -- 67
 (There was 1 warning)
