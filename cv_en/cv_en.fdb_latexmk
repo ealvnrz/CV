@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex cv_en"] 1693328954 "cv_en.aux" "cv_en.bbl" "cv_en" 1693328955 0
-  "./publications.bib" 1693259615 5157 778ff569974432c280d3b2fbd0819f5f ""
+["bibtex cv_en"] 1693328954 "cv_en.aux" "cv_en.bbl" "cv_en" 1697120433 0
+  "./publications.bib" 1693435189 5157 778ff569974432c280d3b2fbd0819f5f ""
   "/usr/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1689853683 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "cv_en.aux" 1693328955 1847 3436c3c3fa31df12694fa9d61c5bed12 "pdflatex"
+  "cv_en.aux" 1697120433 1847 3436c3c3fa31df12694fa9d61c5bed12 "pdflatex"
   (generated)
   "cv_en.bbl"
   "cv_en.blg"
   (rewritten before read)
-["pdflatex"] 1693328954 "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1693328955 0
-  "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" 1693328953 11761 6be298d532d9dcf2d0b0c6f33423513a ""
+["pdflatex"] 1697120432 "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1697120433 0
+  "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" 1697120432 11982 25edc94d289c4459b71c948d5d9b3b05 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1689853683 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1689853683 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1689853683 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -203,13 +203,13 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1689853683 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1689853683 56148 51a9a8571c07b9921892ae11063ae853 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1692919140 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1692919135 6768060 6bac735ccaadb4d16696926953c82446 ""
-  "cv_en.aux" 1693328955 1847 3436c3c3fa31df12694fa9d61c5bed12 "pdflatex"
-  "cv_en.bbl" 1693328954 2214 f1b0cb96dbae88be3b1d46f1980a1ee8 "bibtex cv_en"
-  "cv_en.out" 1693328955 934 e1c3902436311befcc4511fb674b8360 "pdflatex"
-  "cv_en.tex" 1693328953 11761 6be298d532d9dcf2d0b0c6f33423513a ""
-  "google-scholar.png" 1693259615 3116 8f9927e50a08233208972b8de2e6eeb8 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1693434488 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1693434458 6768058 b9d96e35076d5e86be7b29dd6cfd4f52 ""
+  "cv_en.aux" 1697120433 1847 3436c3c3fa31df12694fa9d61c5bed12 "pdflatex"
+  "cv_en.bbl" 1693435189 2214 f1b0cb96dbae88be3b1d46f1980a1ee8 "bibtex cv_en"
+  "cv_en.out" 1697120433 934 e1c3902436311befcc4511fb674b8360 "pdflatex"
+  "cv_en.tex" 1697120432 11982 25edc94d289c4459b71c948d5d9b3b05 ""
+  "google-scholar.png" 1693435189 3116 8f9927e50a08233208972b8de2e6eeb8 ""
   (generated)
   "cv_en.aux"
   "cv_en.log"
