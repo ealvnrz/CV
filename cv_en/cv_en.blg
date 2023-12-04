@@ -6,43 +6,43 @@ Database file #1: publications.bib
 Warning--there's a number but no volume in Beltran2022a
 You've used 6 entries,
             1791 wiz_defined-function locations,
-            484 strings with 5616 characters,
-and the built_in function-call counts, 1634 in all, are:
-= -- 115
+            486 strings with 5635 characters,
+and the built_in function-call counts, 1779 in all, are:
+= -- 134
 > -- 138
-< -- 2
+< -- 3
 + -- 48
 - -- 42
-* -- 136
-:= -- 295
+* -- 139
+:= -- 304
 add.period$ -- 18
 call.type$ -- 6
 change.case$ -- 6
 chr.to.int$ -- 0
 cite$ -- 7
-duplicate$ -- 62
-empty$ -- 117
+duplicate$ -- 76
+empty$ -- 126
 format.name$ -- 42
-if$ -- 338
+if$ -- 382
 int.to.chr$ -- 0
 int.to.str$ -- 6
 missing$ -- 6
 newline$ -- 33
 num.names$ -- 6
-pop$ -- 13
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 29
+skip$ -- 46
 stack$ -- 0
-substring$ -- 60
-swap$ -- 16
-text.length$ -- 2
+substring$ -- 72
+swap$ -- 29
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 15
+while$ -- 16
 width$ -- 7
-write$ -- 67
+write$ -- 68
 (There was 1 warning)
