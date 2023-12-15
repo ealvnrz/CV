@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex cv_en"] 1701725739 "cv_en.aux" "cv_en.bbl" "cv_en" 1701725740 0
+["bibtex cv_en"] 1701725739 "cv_en.aux" "cv_en.bbl" "cv_en" 1702660871 0
   "./publications.bib" 1701724932 7079 798fc6d4517697926b7cc6c02e34a273 ""
   "/usr/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1689853683 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "cv_en.aux" 1701725739 1845 7762debbded7ba29016179516585cace "pdflatex"
+  "cv_en.aux" 1702660871 1845 7762debbded7ba29016179516585cace "pdflatex"
   (generated)
   "cv_en.bbl"
   "cv_en.blg"
   (rewritten before read)
-["pdflatex"] 1701725739 "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1701725740 0
-  "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" 1697120432 11982 25edc94d289c4459b71c948d5d9b3b05 ""
+["pdflatex"] 1702660870 "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1702660871 0
+  "/home/ealvnrz/GitHub/CV/cv_en/cv_en.tex" 1702660870 12124 8029e217f28e107dfddd198211fbf45d ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1689853683 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1689853683 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1689853683 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -205,10 +205,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1693434488 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1693434458 6768058 b9d96e35076d5e86be7b29dd6cfd4f52 ""
-  "cv_en.aux" 1701725739 1845 7762debbded7ba29016179516585cace "pdflatex"
+  "cv_en.aux" 1702660871 1845 7762debbded7ba29016179516585cace "pdflatex"
   "cv_en.bbl" 1701725739 2223 a6b19fbcc50d2a23a665f8baa16735fb "bibtex cv_en"
-  "cv_en.out" 1701725739 934 e1c3902436311befcc4511fb674b8360 "pdflatex"
-  "cv_en.tex" 1697120432 11982 25edc94d289c4459b71c948d5d9b3b05 ""
+  "cv_en.out" 1702660871 934 e1c3902436311befcc4511fb674b8360 "pdflatex"
+  "cv_en.tex" 1702660870 12124 8029e217f28e107dfddd198211fbf45d ""
   "google-scholar.png" 1693435189 3116 8f9927e50a08233208972b8de2e6eeb8 ""
   (generated)
   "cv_en.aux"
