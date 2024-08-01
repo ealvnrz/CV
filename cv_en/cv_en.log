@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.26)  14 MAR 2024 20:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2024.2.26)  26 MAR 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,7 +12,7 @@ Document Class: moderncv 2022-02-21 v2.3.1 modern curriculum vitae and letter do
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 ) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
+\etb@tempcnta=\count181
 ) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -20,9 +20,9 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
- (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package xcolor Info: Driver file: xetex.def on input line 227.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
  (/usr/share/texmf-dist/tex/latex/tools/array.sty
@@ -37,10 +37,9 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 )
 \everycr=\toks17
 \minrowclearance=\skip50
-\rownum=\count186
+\rownum=\count182
 ) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -65,7 +64,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
@@ -82,29 +81,32 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip59
 ) (/usr/share/texmf-dist/tex/latex/moderncv/tweaklist.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count187
-\calc@Bcount=\count188
+\calc@Acount=\count183
+\calc@Bcount=\count184
 \calc@Adimen=\dimen144
 \calc@Bdimen=\dimen145
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count189
+\calc@Ccount=\count185
 \calc@Cskip=\skip62
 ) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count190
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+\g__graphics_track_int=\count186
 \l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count187
+\g__pdf_backend_annotation_int=\count188
+\g__pdf_backend_link_int=\count189
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
 ) (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks19
 \MT@tempbox=\box54
-\MT@count=\count191
+\MT@count=\count190
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks20
@@ -112,49 +114,50 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen146
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count192
- (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 902.
-LaTeX Info: Redefining \lslig on input line 902.
-\MT@outer@space=\skip63
+\MT@listname@count=\count191
+ (/usr/share/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2023/03/13 v3.1a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 238.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvcollection.sty
 Package: moderncvcollection 2022-02-21 v2.3.1 moderncv collections
-\c@collection@iterator=\count193
+\c@collection@iterator=\count192
 ) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvcompatibility.sty
 Package: moderncvcompatibility 2022-02-21 v2.3.1 modern curriculum vitae and letter compatibility patches
 )
-\c@collection@phones@count=\count194
-\c@collection@socials@count=\count195
-\c@cvcolumnscounter=\count196
-\c@cvcolumnsautowidthcounter=\count197
-\c@tmpiteratorcounter=\count198
-\cvcolumnsdummywidth=\skip64
-\cvcolumnswidth=\skip65
-\cvcolumnsautowidth=\skip66
-\cvcolumnautowidth=\skip67
-\bibindent=\skip68
+\c@collection@phones@count=\count193
+\c@collection@socials@count=\count194
+\c@cvcolumnscounter=\count195
+\c@cvcolumnsautowidthcounter=\count196
+\c@tmpiteratorcounter=\count197
+\cvcolumnsdummywidth=\skip63
+\cvcolumnswidth=\skip64
+\cvcolumnsautowidth=\skip65
+\cvcolumnautowidth=\skip66
+\bibindent=\skip67
 ) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2022-02-21 v2.3.1 modern curriculum vitae and letter style scheme: classic
  (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconssymbols.sty
 Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons selector
-
-
-Class moderncv Warning: "academicons requires xetex/luatex to work. Using alternatives.".
-
-(/usr/share/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
+ (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconsawesome.sty
 Package: moderncviconsawesome 2022-02-21 v2.3.1 modern curriculum vitae icons: awesome
  (/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
-) (/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
- (/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))) (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
+) (/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesome5
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on input line 69.
+ (/usr/share/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on input line 70.
+ (/usr/share/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd)))) (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconsacademic.sty
+Package: moderncviconsacademic 2022-02-21 v2.3.1 modern curriculum vitae icons: academicons
+ (/usr/share/texmf-dist/tex/latex/academicons/academicons.sty
+Package: academicons 2021/11/26 v1.9.1 Academicons Icons
+)) (/usr/share/texmf-dist/tex/latex/moderncv/moderncviconstikz.sty
 Package: moderncviconstikz 2022-02-21 v2.3.1 modern curriculum vitae and letter icons: tickz
  (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks21
@@ -186,22 +189,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen158
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count199
-\c@pgf@countb=\count266
-\c@pgf@countc=\count267
-\c@pgf@countd=\count268
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
 \t@pgf@toka=\toks25
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count269
+\pgf@sys@id@count=\count268
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+Driver file for pgf: pgfsys-xetex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count269
 ))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count270
@@ -335,17 +342,17 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))))) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvheadi.sty
 Package: moderncvheadi 2022-02-21 v2.3.1 modern curriculum vitae and letter header variant: 1
-\quotewidth=\skip69
-\makecvheadnamewidth=\skip70
+\quotewidth=\skip68
+\makecvheadnamewidth=\skip69
 ) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvbodyi.sty
 Package: moderncvbodyi 2022-02-21 v2.3.1 modern curriculum vitae and letter body variant: 1
  (/usr/share/texmf-dist/tex/latex/moderncv/moderncvskillmatrix.sty
 Package: moderncvskillmatrix 2022-02-21 v2.3.1 modern curriculum vitae and letter skill matrix
  (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip71
+\multirow@colwidth=\skip70
 \multirow@cntb=\count286
-\multirow@dima=\skip72
+\multirow@dima=\skip71
 \bigstrutjot=\dimen197
 ) (/usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
@@ -370,50 +377,55 @@ Package: arydshln 2019/02/21 v1.76
 \adl@everyvbox=\toks33
 \adl@LTpagetotal=\dimen261
 )
-\cvSkill@RectangleSize=\skip73
+\cvSkill@RectangleSize=\skip72
 \my@repeat@count=\count297
-\cvskill@width=\skip74
-\cvskill@descriptorwidth=\skip75
-\cvskill@experiencewidth=\skip76
-\skillmatrix@columnwidth=\skip77
-\skillmatrix@commentwidth=\skip78
-\skillmatrix@padding=\skip79
-\skillmatrix@hintscolumnwidth=\skip80
-\skillmatrix@bodylength=\skip81
-\cvskilllegend@leftdescriptorwidth=\skip82
-\cvskilllegend@rightdescriptorwidth=\skip83
-\skilllegend@hintscolumnwidth=\skip84
-\skilllegend@padding=\skip85
-\skilllegend@bodylength=\skip86
-\separatorrulewidth=\skip87
+\cvskill@width=\skip73
+\cvskill@descriptorwidth=\skip74
+\cvskill@experiencewidth=\skip75
+\skillmatrix@columnwidth=\skip76
+\skillmatrix@commentwidth=\skip77
+\skillmatrix@padding=\skip78
+\skillmatrix@hintscolumnwidth=\skip79
+\skillmatrix@bodylength=\skip80
+\cvskilllegend@leftdescriptorwidth=\skip81
+\cvskilllegend@rightdescriptorwidth=\skip82
+\skilllegend@hintscolumnwidth=\skip83
+\skilllegend@padding=\skip84
+\skilllegend@bodylength=\skip85
+\separatorrulewidth=\skip86
 )
-\hintscolumnwidth=\skip88
-\separatorcolumnwidth=\skip89
-\maincolumnwidth=\skip90
-\doubleitemcolumnwidth=\skip91
-\listitemsymbolwidth=\skip92
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 48.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-\listitemcolumnwidth=\skip93
-\listdoubleitemcolumnwidth=\skip94
-\baseletterheight=\skip95
+\hintscolumnwidth=\skip87
+\separatorcolumnwidth=\skip88
+\maincolumnwidth=\skip89
+\doubleitemcolumnwidth=\skip90
+\listitemsymbolwidth=\skip91
+\listitemcolumnwidth=\skip92
+\listdoubleitemcolumnwidth=\skip93
+\baseletterheight=\skip94
 \cvitemwithcommentbox=\box67
-\cvitemwithcommentskilllength=\skip96
-\cvitemwithcommentcommentlength=\skip97
+\cvitemwithcommentskilllength=\skip95
+\cvitemwithcommentcommentlength=\skip96
 )) (/usr/share/texmf-dist/tex/latex/moderncv/moderncvcolorgrey.sty
 Package: moderncvcolorgrey 2022-02-21 v2.3.1 modern curriculum vitae and letter color scheme: grey
 ) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks34
 \inpenc@posthook=\toks35
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 ) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count298
 \U@D=\dimen262
 \l@unhyphenated=\language6
- (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count299
  (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
@@ -468,7 +480,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -497,8 +509,6 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@pagecounter=\count305
  (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 ) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
@@ -507,8 +517,6 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \Hy@SavedSpaceFactor=\count306
  (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4060.
 Package hyperref Info: Hyper figures OFF on input line 4177.
@@ -544,23 +552,28 @@ package with kernel methods
 \c@Item=\count310
 \c@Hfootnote=\count311
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
+ (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\pdfm@box=\box68
+\c@Hy@AnnotLevel=\count312
+\HyField@AnnotCount=\count313
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
+ (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-\Fld@listcount=\count312
-\c@bookmark@seq@number=\count313
- (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip98
+\Hy@SectionHShift=\skip97
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 80.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 80.
@@ -578,6 +591,12 @@ LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 80.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -587,48 +606,29 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
-\scratchdimen=\dimen275
-\scratchbox=\box68
-\nofMPsegments=\count315
-\nofMParguments=\count316
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count317
-\MPscratchDim=\dimen276
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks38
-) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
 LaTeX Info: Redefining \microtypecontext on input line 80.
 Package microtype Info: Applying patch `item' on input line 80.
 Package microtype Info: Applying patch `toc' on input line 80.
 Package microtype Info: Applying patch `eqnum' on input line 80.
 Package microtype Info: Applying patch `footnote' on input line 80.
 Package microtype Info: Applying patch `verbatim' on input line 80.
-Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 80.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
- (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+ (/usr/share/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -664,30 +664,28 @@ Package hyperref Info: Link coloring OFF on input line 80.
 \@outlinefile=\write4
 \openout4 = `cv_en.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 86.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 87.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 87.
-<google-scholar.png, id=48, 192.72pt x 192.72pt>
-File: google-scholar.png Graphic file (type png)
-<use google-scholar.png>
-Package pdftex.def Info: google-scholar.png  used on input line 89.
-(pdftex.def)             Requested size: 13.59764pt x 13.6pt.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 90.
- (/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10.95> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 90.
+ (/usr/share/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
+)
+File: google-scholar.png Graphic file (type bmp)
+<google-scholar.png>
+ (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 93.
- (./cv_en.bbl [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./google-scholar.png>])
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 93.
+
+(./cv_en.bbl [1
+
+])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -695,16 +693,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 183.
- (/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+[2]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 192.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
+(microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
+[]\T1/lmr/m/n/10.95 Moreno Bevilac-qua, As-so-ciate Pro-fes-sor at []Uni-ver-si-dad Adolfo Ibañez[].
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -712,25 +714,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}] 
+[3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./cv_en.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `cv_en.out' has not changed.
 (rerunfilecheck)             Checksum: E1C3902436311BEFCC4511FB674B8360;934.
  ) 
 Here is how much of TeX's memory you used:
- 27273 strings out of 477923
- 522822 string characters out of 5838288
- 1888388 words of memory out of 5000000
- 46914 multiletter control sequences out of 15000+600000
- 525804 words of font info for 94 fonts, out of 8000000 for 9000
+ 25694 strings out of 478628
+ 476799 string characters out of 5848395
+ 1874018 words of memory out of 5000000
+ 45344 multiletter control sequences out of 15000+600000
+ 539248 words of font info for 57 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 129i,12n,122p,998b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on cv_en.pdf (3 pages, 193354 bytes).
-PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 25178 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 129i,12n,122p,998b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on cv_en.pdf (3 pages).
