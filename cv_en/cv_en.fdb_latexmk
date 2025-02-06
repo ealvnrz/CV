@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex cv_en"] 1731362755.36768 "cv_en.aux" "cv_en.bbl" "cv_en" 1731362804.17964 0
+["bibtex cv_en"] 1738824190.82709 "cv_en.aux" "cv_en.bbl" "cv_en" 1738824676.19678 0
   "./publications.bib" 1731358677 7826 496e93e6435e1a7269522b7026153498 ""
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/unsrt.bst" 1713747283 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "cv_en.aux" 1731362803 1604 9b50d85f96e5da8b0cfde890f183ffd0 "pdflatex"
+  "cv_en.aux" 1738824675 1604 8ad651f90dfcfa75f4914c377028f3d4 "pdflatex"
   (generated)
   "cv_en.bbl"
   "cv_en.blg"
   (rewritten before read)
-["pdflatex"] 1731362801.92051 "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1731362804.1801 0
-  "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" 1731362801 14533 ec7b8dd400545cfebed2d19891504137 ""
+["pdflatex"] 1738824673.96999 "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1738824676.19724 0
+  "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" 1738824673 14916 b5ab268951be420320a676c27afef9ee ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713747526 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1713748247 2920 d63721872b8c77041b88e51b8f7c291d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1713748247 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -129,6 +129,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd" 1713748938 2443 790016d75def8d3127df5c216a45abcc ""
   "c:/texlive/2024/texmf-dist/tex/latex/bold-extra/bold-extra.sty" 1713747322 1923 d0cfef8b32c8df31c8dc244f7e40f3dc ""
   "c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty" 1713747579 12355 ec728d2e4c37cf8919ee2eff9b75ad0c ""
+  "c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty" 1713748016 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1713748034 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1713748078 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1713748134 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
@@ -202,10 +203,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713751527 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713751664 8222498 6c5dce29499a19697826a4a5590a9d02 ""
   "c:/texlive/2024/texmf.cnf" 1713751509 713 e69b156964470283e0530f5060668171 ""
-  "cv_en.aux" 1731362803 1604 9b50d85f96e5da8b0cfde890f183ffd0 "pdflatex"
-  "cv_en.bbl" 1731362755 2773 03be2eebe8368464905a571ac19f879a "bibtex cv_en"
-  "cv_en.out" 1731362803 1052 237a8d05b3712c843a602b3f044446f3 "pdflatex"
-  "cv_en.tex" 1731362801 14533 ec7b8dd400545cfebed2d19891504137 ""
+  "cv_en.aux" 1738824675 1604 8ad651f90dfcfa75f4914c377028f3d4 "pdflatex"
+  "cv_en.bbl" 1738824191 2773 03be2eebe8368464905a571ac19f879a "bibtex cv_en"
+  "cv_en.out" 1738824675 1052 237a8d05b3712c843a602b3f044446f3 "pdflatex"
+  "cv_en.tex" 1738824673 14916 b5ab268951be420320a676c27afef9ee ""
   "google-scholar.png" 1731358295 3116 24f284ed53099d863ff10dbf7e704b87 ""
   (generated)
   "cv_en.aux"
