@@ -1,44 +1,496 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{FAS2024}
-María~Elisa Farías, Eloy Alvarado, and Javier Scavia.
-\newblock Contagion, financial distress and divergent beliefs.
-\newblock {\em Open Economics Review (Under Review)}, 2025.
 
-\bibitem{Alvarado_LAJAR}
-Eloy Alvarado, Francisco Plaza-Vega, Carlos Montenegro, and Oscar Saavedra.
-\newblock Deep learning-based classification of species in central-southern fisheries in chile.
-\newblock {\em Latin American Journal of Aquatic Research (Accepted)}, 2025.
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{Alvarado_LAJAR}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=eb93a249d34aa02cea27eb88f0b5a60c}{%
+           family={Plaza-Vega},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ccf1548d6206fc0ecac524953f275377}{%
+           family={Montenegro},
+           familyi={M\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e75c76b3e9ced24ccca8b1a11ee184a6}{%
+           family={Saavedra},
+           familyi={S\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{fullhash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{fullhashraw}{617e36f81efa04f87513152ea4d4b220}
+      \strng{bibnamehash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{authorbibnamehash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{authornamehash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{authorfullhash}{617e36f81efa04f87513152ea4d4b220}
+      \strng{authorfullhashraw}{617e36f81efa04f87513152ea4d4b220}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Latin American Journal of Aquatic Research (Accepted)}
+      \field{title}{Deep learning-based classification of species in central-southern fisheries in Chile}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{FAS2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b242f0ef3b46ccbf6a183f82821a080e}{%
+           family={Farías},
+           familyi={F\bibinitperiod},
+           given={María\bibnamedelima Elisa},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=68a486f723ab56668971acffe5ea36a4}{%
+           family={Scavia},
+           familyi={S\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{fullhash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{fullhashraw}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{bibnamehash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{authorbibnamehash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{authornamehash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{authorfullhash}{8ae6e309522ec7803dbe96f2af888fcf}
+      \strng{authorfullhashraw}{8ae6e309522ec7803dbe96f2af888fcf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Economics Review (Under Review)}
+      \field{title}{Contagion, Financial Distress and DIvergent Beliefs}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+    \entry{BEVILACQUA2024105277}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=36335f0ceb45f5e577e236bf70673ac2}{%
+           family={Bevilacqua},
+           familyi={B\bibinitperiod},
+           given={Moreno},
+           giveni={M\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=016655f8489c8ae3060d6ab5ba42593a}{%
+           family={Caamaño-Carrillo},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{fullhash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{fullhashraw}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{bibnamehash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{authorbibnamehash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{authornamehash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{authorfullhash}{edc01171c3c4475ab98022288f9eca7c}
+      \strng{authorfullhashraw}{edc01171c3c4475ab98022288f9eca7c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Gaussian copula is a powerful tool that has been widely used to model spatial and/or temporal correlated data with arbitrary marginal distributions. However, this kind of model can potentially be too restrictive since it expresses a reflection symmetric dependence. In this paper, we propose a new spatial copula model that makes it possible to obtain random fields with arbitrary marginal distributions with a type of dependence that can be reflection symmetric or not. Particularly, we propose a new random field with uniform marginal distributions that can be viewed as a spatial generalization of the classical Clayton copula model. It is obtained through a power transformation of a specific instance of a beta random field which in turn is obtained using a transformation of two independent Gamma random fields. For the proposed random field, we study the second-order properties and we provide analytic expressions for the bivariate distribution and its correlation. Finally, in the reflection symmetric case, we study the associated geometrical properties. As an application of the proposed model we focus on spatial modeling of data with bounded support. Specifically, we focus on spatial regression models with marginal distribution of the beta type. In a simulation study, we investigate the use of the weighted pairwise composite likelihood method for the estimation of this model. Finally, the effectiveness of our methodology is illustrated by analyzing point-referenced vegetation index data using the Gaussian copula as benchmark. Our developments have been implemented in an open-source package for the R statistical environment.}
+      \field{issn}{0047-259X}
+      \field{journaltitle}{Journal of Multivariate Analysis}
+      \field{note}{Copula Modeling from Abe Sklar to the present day}
+      \field{title}{A flexible Clayton-like spatial copula with application to bounded support data}
+      \field{volume}{201}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{105277}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jmva.2023.105277
+      \endverb
+      \keyw{Archimedean Copula,Beta random fields,Composite likelihood,Reflection Asymmetry}
+    \endentry
+    \entry{Beltran2023}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=1e363993b53405e1c511a49c4925ba45}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=39b9965e471da2b6ccfc0ed16bd8089f}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea54617ce3f9d18b9e572752f8a351ff}{%
+           family={Sanzana},
+           familyi={S\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=28ad59271c0422af0e93926e65d29e78}{%
+           family={Muñoz-Sepúlveda},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Fernanda},
+           giveni={F\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=243ddb5e6eefacd06609bce2795c5356}{%
+           family={Venegas},
+           familyi={V\bibinitperiod},
+           given={Bernardo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a72f107433058858baefcec7ee2e99fb}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3181be38c9cb23cfaec331791e500155}{%
+           family={Rueda-Velásquez},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bc1cd74c1c39040f391a9eff8271f73d}{%
+           family={Marttens},
+           familyi={M\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{fullhash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{fullhashraw}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{bibnamehash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{authorbibnamehash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{authornamehash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{authorfullhash}{b3c9b978303890accd223db6d2f6cd2c}
+      \strng{authorfullhashraw}{b3c9b978303890accd223db6d2f6cd2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Risk factors associated with tooth loss have been studied; however, the current status of the epidemiological profiles and the impact of the pandemic on the oral health of the elderly is still unknown. This study aims to determine the experience of caries and tooth loss among elderly Chilean citizens in five regions and to identify the risk factors associated with tooth loss. The sample includes 135 participants over 60 years old assessed during COVID-19 lockdown. Sociodemographic variables such as education and RSH (Social Registry of Households) were obtained through a teledentistry platform called TEGO. The history of chronic diseases such as diabetes, obesity, depression and dental caries reported by DMFT index scores were incorporated. The statistical analysis included Adjusted Odds Ratios (ORs) to assess risk factors associated with the lack of functional dentition. Multivariate hypothesis testing was used to compare the mean equality of DMFT and its components between regions (p-value {<} 0.05). Individuals with RSH ≤ 40\% were at higher risk of having no functional dentition with OR 4.56 (95\% CI: 1.71, 12.17). The only mean difference between regions was the filled tooth component. Tooth loss was associated with multidimensional lower income, where the elderly belonging to the 40\% most vulnerable population had a higher prevalence of non-functional dentition. This study highlights the importance of implementing a National Oral Health Policy that focuses on oral health promotion and minimally invasive dentistry for the most vulnerable population.}
+      \field{issn}{1660-4601}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Tooth {Loss} and {Caries} {Experience} of {Elderly} {Chileans} in the {Context} of the {COVID}-19 {Pandemic} in {Five} {Regions} of {Chile}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{volume}{20}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijerph20043001
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:https\://www.mdpi.com/1660-4601/20/4/3001/pdf?version=1676028486:application/pdf
+      \endverb
+      \keyw{tooth loss,caries experience,edentulism,elderly}
+    \endentry
+    \entry{Beltran2022a}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=1e363993b53405e1c511a49c4925ba45}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=29af61a7f3dbb94508a8da9bc45e8fd9}{%
+           family={Mardones},
+           familyi={M\bibinitperiod},
+           given={Pablo\bibnamedelima Acuña},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f65a9b0979a4f63d878fa9583ca55863}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bc1cd74c1c39040f391a9eff8271f73d}{%
+           family={Marttens},
+           familyi={M\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Concepción}%
+      }
+      \strng{namehash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{fullhash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{fullhashraw}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{bibnamehash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{authorbibnamehash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{authornamehash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{authorfullhash}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \strng{authorfullhashraw}{dafc568555c273b7ed8ccdc7c57fdb07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Oral Research}
+      \field{number}{1}
+      \field{title}{TEGO: A new concept of teledentistry for the elderly through a web platform and mobile app in the context of the covid-19 pandemic.}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.17126/joralres.2022.023
+      \endverb
+    \endentry
+    \entry{Beltran2022}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=1e363993b53405e1c511a49c4925ba45}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bc1cd74c1c39040f391a9eff8271f73d}{%
+           family={Marttens},
+           familyi={M\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a5df0ab2f3e0ba1c92a1794bf544104d}{%
+           family={Acuña-Mardones},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c727159e1a2fd6d1d08d1d049e83c3d9}{%
+           family={Sanzana-Luengo},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6a5c9510bf60c43747bf5977803f74a6}{%
+           family={Rueda-Velásquez},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Sandra\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39b9965e471da2b6ccfc0ed16bd8089f}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=744dfbb1caec148fd3f90a68a9240620}{%
+           family={Cerda},
+           familyi={C\bibinitperiod},
+           given={Angeline},
+           giveni={A\bibinitperiod}}}%
+        {{hash=243ddb5e6eefacd06609bce2795c5356}{%
+           family={Venegas},
+           familyi={V\bibinitperiod},
+           given={Bernardo},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi}%
+      }
+      \strng{namehash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{fullhash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{fullhashraw}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{bibnamehash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{authorbibnamehash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{authornamehash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{authorfullhash}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \strng{authorfullhashraw}{08307f7e8f03a1cbdad1ebb4073f3d8f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BioMed Research International}
+      \field{title}{Implementation of a Teledentistry Platform for Dental Emergencies for the Elderly in the Context of the COVID-19 Pandemic in Chile}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1155/2022/6889285
+      \endverb
+    \endentry
+    \entry{SanzanaLuengo2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c727159e1a2fd6d1d08d1d049e83c3d9}{%
+           family={Sanzana-Luengo},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9ac263086cec132790b9ea6ce130ad3f}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=594a70ff494dbd400f60589f309b252d}{%
+           family={Abarza},
+           familyi={A\bibinitperiod},
+           given={Liliann},
+           giveni={L\bibinitperiod}}}%
+        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1e363993b53405e1c511a49c4925ba45}{%
+           family={Beltrán},
+           familyi={B\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{fullhash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{fullhashraw}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{bibnamehash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{authorbibnamehash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{authornamehash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{authorfullhash}{bed17edd48d836ef0f7749e3e241fdff}
+      \strng{authorfullhashraw}{bed17edd48d836ef0f7749e3e241fdff}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Oral Research}
+      \field{title}{Teledentistry protocol for the elderly in the context of the COVID-19 pandemic through a web platform/mobile app: approach from the general dentist.}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.17126/joralres.2022.026
+      \endverb
+    \endentry
+    \entry{Stehlik2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9c7c67507ae80a20ae3f5296d60a5e08}{%
+           family={Stehlík},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c64c6c79cd5ed0ca2641fce8a6d163ee}{%
+           family={Kisel'ák},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c316c680e1426fab0670a71689b046e1}{%
+           family={Dinamarca},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df93c7a7db4e61f26a3a47acfe2a325b}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d66647fb4c28e2b8b31ad3c074c306fc}{%
+           family={Plaza},
+           familyi={P\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8ef9290216f17eb8d4caaa2f4cbd145c}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={FA},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ffe958bf4a57d64ec43847efb9ccad3b}{%
+           family={Stehlíková},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2bb824978fdfa42c8f07137a228f5e63}{%
+           family={Marek},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=385b57201cf9d9591adfa47918b23824}{%
+           family={Venegas},
+           familyi={V\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0ca1a0627c160e9cfaa78791c4cac5bd}{%
+           family={Gajdoš},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{fullhash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{fullhashraw}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{bibnamehash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{authorbibnamehash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{authornamehash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{authorfullhash}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \strng{authorfullhashraw}{3c27e997c72cb6d409ce208ca1e95a0b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stochastic Analysis and Applications}
+      \field{title}{REDACS: Regional emergency-driven adaptive cluster sampling for effective COVID-19 management}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1080/07362994.2022.2033126
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{BEVILACQUA2024105277}
-Moreno Bevilacqua, Eloy Alvarado, and Christian Caamaño-Carrillo.
-\newblock A flexible clayton-like spatial copula with application to bounded support data.
-\newblock {\em Journal of Multivariate Analysis}, 201:105277, 2024.
-\newblock Copula Modeling from Abe Sklar to the present day.
-
-\bibitem{Beltran2023}
-Víctor Beltrán, Marco Flores, Cristina Sanzana, Fernanda Muñoz-Sepúlveda, Eloy Alvarado, Bernardo Venegas, Juan~Carlos Molina, Sandra Rueda-Velásquez, and Alfredo von Marttens.
-\newblock Tooth {Loss} and {Caries} {Experience} of {Elderly} {Chileans} in the {Context} of the {COVID}-19 {Pandemic} in {Five} {Regions} of {Chile}.
-\newblock {\em International Journal of Environmental Research and Public Health}, 20(4):3001, January 2023.
-
-\bibitem{Beltran2022}
-V{\'\i}ctor Beltr{\'a}n, Alfredo von Marttens, Pablo Acu{\~n}a-Mardones, Cristina Sanzana-Luengo, Sandra~J Rueda-Vel{\'a}squez, Eloy Alvarado, Marco Flores, Angeline Cerda, and Bernardo Venegas.
-\newblock Implementation of a teledentistry platform for dental emergencies for the elderly in the context of the covid-19 pandemic in chile.
-\newblock {\em BioMed Research International}, 2022, 2022.
-
-\bibitem{Beltran2022a}
-V{\'\i}ctor Beltr{\'a}n, Pablo~Acu{\~n}a Mardones, Jaime D{\'\i}az, Eloy Alvarado, and Alfredo von Marttens.
-\newblock Tego: A new concept of teledentistry for the elderly through a web platform and mobile app in the context of the covid-19 pandemic.
-\newblock {\em Journal of Oral Research}, (1):1--8, 2022.
-
-\bibitem{SanzanaLuengo2022}
-Cristina Sanzana-Luengo, Leonardo D{\'\i}az, Liliann Abarza, Eloy Alvarado, and V{\'\i}ctor Beltr{\'a}n.
-\newblock Teledentistry protocol for the elderly in the context of the covid-19 pandemic through a web platform/mobile app: approach from the general dentist.
-\newblock {\em Journal of Oral Research}, pages 1--8, 2022.
-
-\bibitem{Stehlik2022}
-M~Stehl{\'\i}k, J~Kisel'{\'a}k, A~Dinamarca, E~Alvarado, F~Plaza, FA~Medina, S~Stehl{\'\i}kov{\'a}, J~Marek, B~Venegas, A~Gajdo{\v{s}}, et~al.
-\newblock Redacs: Regional emergency-driven adaptive cluster sampling for effective covid-19 management.
-\newblock {\em Stochastic Analysis and Applications}, pages 1--35, 2022.
-
-\end{thebibliography}

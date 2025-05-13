@@ -12,12 +12,60 @@
 \usepackage{bold-extra}
 \usepackage{xcolor}
 \usepackage{lastpage}
+\usepackage{url}
 \usepackage{enumitem}
 \usepackage{fontawesome5}
+
+\usepackage[
+  backend=biber,
+  style=numeric,     
+  sorting=ydnt,
+  maxnames=99,
+  maxcitenames=99,
+  url=true,
+  doi=true,
+  giveninits=true
+]{biblatex}
+\addbibresource{publications.bib}
+
+\usepackage{csquotes}  % recomendado
+
+\addbibresource{publications.bib}
+\DefineBibliographyStrings{english}{%
+  bibliography = {Research Articles},
+}
+
+
 
 \renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \definecolor{color1}{rgb}{0.52, 0.52, 0.51}
 \setlength{\hintscolumnwidth}{2cm}
+
+
+% --- etiqueta numérica: 1. 2. 3. ---
+\DeclareFieldFormat{labelnumberwidth}{#1.}  
+\DeclareFieldFormat{labelnumber}{#1}            
+
+\newlength{\cvlabelwidth}
+\setlength{\cvlabelwidth}{\hintscolumnwidth}   
+
+\defbibenvironment{bibliography}
+  {
+    \list               
+      {\printtext[labelnumberwidth]{%
+         \printfield{prefixnumber}%
+         \printfield{labelnumber}}}
+      {
+        \setlength{\labelnumberwidth}{\cvlabelwidth}
+        \setlength{\labelwidth}{\labelnumberwidth}
+        \setlength{\biblabelsep}{0.5em}
+        \setlength{\leftmargin}{\labelwidth+\biblabelsep}
+        \setlength{\itemsep}{0.25em}  
+      }
+  }
+  {\endlist}
+  {\item}             
+
 
 \renewcommand*{\sectionfont}{\bfseries\scshape}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\textcolor{black}{#1}}}
@@ -102,8 +150,7 @@ Office: A-293\\
 \section{Education}
 \cvitemwithcomment{2018 -- 2022}{Ph.D. in Statistics, \href{https://www.uv.cl/}{Instituto de Estadística, Universidad de Valparaíso }}{Valparaíso, Chile.}
 \cvitem{}{Advisors: Moreno Bevilacqua and Christian Caamaño}
-
-\cvitemwithcomment{2013 -- 2015}{Bachelor in Statistics / Statistician, \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}{Valparaíso, Chile.}
+\cvitemwithcomment{2013 -- 2015}{B.Sc in Statistical Science, \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}{Valparaíso, Chile.}
 \cvitemwithcomment{2014}{Exchange program in \href{http://www.korea.ac.kr}{Korea University}}{Seoul, South Korea}
 
 \section{Languages}
@@ -117,10 +164,15 @@ Office: A-293\\
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+
 \renewcommand{\refname}{Research Articles}
-\bibliographystyle{unsrt}
+\section{Research Articles}
 \nocite{*}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+\printbibliography[heading=none]   % o heading=subbibliography para título propio
+
+%\bibliographystyle{unsrturl}
+%\nocite{*}
+%\bibliography{publications}                       
 
 \section{Working Papers}
 
@@ -143,9 +195,9 @@ random field approach for mining haul roads}. Joint work with David Godoy and To
 
 \section{Grants and Projects}
 
-\cvitem{2025 -- 2027}{Spatial extension of the Gumbel copula: applications to some non-Gaussian random fields, ANID. No. 11250479.}
+\cvitem{2025 -- 2027}{Spatial extension of the Gumbel copula: applications to some non-Gaussian random fields, Fondecyt de Iniciación 2025 ANID No.~11250479.}
 \cvitem{2023 -- 2024}{Modeling and estimating massive point referenced spatial data, MATH-AMSUD AMSUD220041. Research Associate.}
-\cvitem{2018 -- 2022}{National Doctoral Degree, ANID. No. 2018-21180953.}
+\cvitem{2018 -- 2022}{National Doctoral Degree, ANID No. 2018-21180953.}
 \cvitem{2020 -- 2020}{Semi-presential technological support platform for urgent and priority dental care for the elderly in the context
 of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID0766, Chile. Collaborator.}
 
@@ -211,7 +263,7 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 \href{mailto:carlos.montenegro@ifop.cl}{\texttt{carlos.montenegro@ifop.cl}}}
 
 \vfill
-\textit{Updated: April 2025}
+\textit{Updated: May 2025}
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
