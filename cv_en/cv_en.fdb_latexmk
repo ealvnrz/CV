@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber cv_en"] 1748740981.78225 "cv_en.bcf" "cv_en.bbl" "cv_en" 1748741629.4213 0
-  "cv_en.bcf" 1748741629 108604 f4d7c81dbe2859c5d85b8f78d153d61e "pdflatex"
+["biber cv_en"] 1748740981.78225 "cv_en.bcf" "cv_en.bbl" "cv_en" 1749699130.27467 0
+  "cv_en.bcf" 1749699130 108604 f4d7c81dbe2859c5d85b8f78d153d61e "pdflatex"
   "publications.bib" 1747287775 7500 a85d93b5a3973b9fa1aa548bd219a696 ""
   (generated)
   "cv_en.bbl"
   "cv_en.blg"
   (rewritten before read)
-["pdflatex"] 1748741627.5285 "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1748741629.42195 0
-  "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" 1748741626 17669 68f5a0b7161a9c85c52311741bd8a196 ""
+["pdflatex"] 1749699128.37635 "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1749699130.27531 0
+  "c:/Users/Eloy/Documents/GitHub/CV/cv_en/cv_en.tex" 1749699127 17842 b57a5fb2b90e4089f99654b8e36dceee ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1713747526 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1713748247 2920 d63721872b8c77041b88e51b8f7c291d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1713748247 2608 3139db8e1f9371a4f87c0715d17fa217 ""
@@ -220,11 +220,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713751527 5519690 1698f96789543a09b6b0e33aada59581 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713751664 8222498 6c5dce29499a19697826a4a5590a9d02 ""
   "c:/texlive/2024/texmf.cnf" 1713751509 713 e69b156964470283e0530f5060668171 ""
-  "cv_en.aux" 1748741629 2208 c673d0013ecaf6aa3183132095b22049 "pdflatex"
+  "cv_en.aux" 1749699130 2208 c673d0013ecaf6aa3183132095b22049 "pdflatex"
   "cv_en.bbl" 1748740983 23422 d0419069aa4dd08e1986c9d30bb6fdfc "biber cv_en"
-  "cv_en.out" 1748741629 1180 783ac104f2fc8ec08bb78209cec89e93 "pdflatex"
-  "cv_en.run.xml" 1748741629 2314 e8fdd9095615653edb6c2b25633a9469 "pdflatex"
-  "cv_en.tex" 1748741626 17669 68f5a0b7161a9c85c52311741bd8a196 ""
+  "cv_en.out" 1749699130 1180 783ac104f2fc8ec08bb78209cec89e93 "pdflatex"
+  "cv_en.run.xml" 1749699130 2314 e8fdd9095615653edb6c2b25633a9469 "pdflatex"
+  "cv_en.tex" 1749699127 17842 b57a5fb2b90e4089f99654b8e36dceee ""
   "google-scholar.png" 1731358295 3116 24f284ed53099d863ff10dbf7e704b87 ""
   (generated)
   "cv_en.aux"
