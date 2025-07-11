@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
-    \entry{Alvarado_LAJAR}{article}{}{}
+    \entry{Alvarado2025LAJAR}{article}{}{}
       \name{author}{4}{}{%
         {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
            family={Alvarado},
@@ -54,10 +54,18 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Latin American Journal of Aquatic Research (Accepted)}
+      \field{issn}{0718-560X}
+      \field{journaltitle}{Latin American Journal of Aquatic Research}
+      \field{number}{3}
       \field{title}{Deep learning-based classification of species in central-southern fisheries in Chile}
+      \field{volume}{53}
       \field{year}{2025}
       \true{nocite}
+      \field{pages}{411\bibrangedash 424}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.3856/vol53-issue3-fulltext-3318
+      \endverb
     \endentry
     \entry{FAS2024}{article}{}{}
       \name{author}{3}{}{%
