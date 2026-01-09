@@ -67,41 +67,6 @@
       \verb 10.3856/vol53-issue3-fulltext-3318
       \endverb
     \endentry
-    \entry{FAS2024}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=b242f0ef3b46ccbf6a183f82821a080e}{%
-           family={Farías},
-           familyi={F\bibinitperiod},
-           given={María\bibnamedelima Elisa},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
-           family={Alvarado},
-           familyi={A\bibinitperiod},
-           given={Eloy},
-           giveni={E\bibinitperiod}}}%
-        {{hash=68a486f723ab56668971acffe5ea36a4}{%
-           family={Scavia},
-           familyi={S\bibinitperiod},
-           given={Javier},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{fullhash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{fullhashraw}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{bibnamehash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{authorbibnamehash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{authornamehash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{authorfullhash}{8ae6e309522ec7803dbe96f2af888fcf}
-      \strng{authorfullhashraw}{8ae6e309522ec7803dbe96f2af888fcf}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Open Economics Review (Under Review)}
-      \field{title}{Contagion, Financial Distress and DIvergent Beliefs}
-      \field{year}{2025}
-      \true{nocite}
-    \endentry
     \entry{BEVILACQUA2024105277}{article}{}{}
       \name{author}{3}{}{%
         {{hash=36335f0ceb45f5e577e236bf70673ac2}{%

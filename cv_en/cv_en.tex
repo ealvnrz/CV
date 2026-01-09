@@ -15,7 +15,7 @@
 \usepackage{url}
 \usepackage{enumitem}
 \usepackage{fontawesome5}
-
+\usepackage{csquotes}  % recomendado
 \usepackage[
   backend=biber,
   style=numeric,     
@@ -26,15 +26,13 @@
   doi=true,
   giveninits=true
 ]{biblatex}
-\addbibresource{publications.bib}
-
-\usepackage{csquotes}  % recomendado
 
 \addbibresource{publications.bib}
+
+
 \DefineBibliographyStrings{english}{%
   bibliography = {Research Articles},
 }
-
 
 
 \renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
@@ -129,8 +127,8 @@
 \begin{document}
 \thispagestyle{empty}
 {\bfseries \LARGE Eloy Alvarado Narváez}\\
-\href{http://industrias.usm.cl}{Departamento de Industrias\\ Universidad Técnica Federico Santa María} \\ Santiago, Chile.\\
-Office: A-293\\
+\href{https://mat.uc.cl/}{Departamento de Estadística\\ Pontificia Universidad Católica de Chile} \\ Santiago, Chile.\\
+Office: 137\\
 \href{mailto:eloy.alvarado@usm.cl}{\faIcon[regular]{envelope}}
 \href{https://github.com/ealvnrz}{\faIcon{github}}
 \href{https://www.linkedin.com/in/ealvnrz/}{\faIcon{linkedin}}
@@ -140,7 +138,8 @@ Office: A-293\\
 %\makecvtitle
 \section{Employment}
 
-\cvitemwithcomment{2023 -- \hfill}{Academic Instructor, \href{http://www.usm.cl}{Universidad Técnica Federico Santa María}}{Santiago, Chile.}
+\cvitemwithcomment{2026 -- \hfill}{Assistant Professor, \href{http://www.mat.uc.cl}{Pontificia Universidad Católica de Chile}}{Santiago, Chile.}
+\cvitemwithcomment{2023 -- 2025}{Academic Instructor, \href{http://www.usm.cl}{Universidad Técnica Federico Santa María}}{Santiago, Chile.}
 \cvitemwithcomment{2022 -- 2022}{Lecturer, \href{http://www.usm.cl}{Universidad Técnica Federico Santa María}}{Santiago, Chile.}
 \cvitemwithcomment{2021 -- 2022}{External Adviser, \href{http://www.ifop.cl}{Instituto de Fomento Pesquero}}{Valparaíso, Chile.}
 \cvitemwithcomment{2019 -- 2022}{Lecturer, \href{https://www.uv.cl/}{Universidad de Valparaíso}}{Valparaíso, Chile.}
@@ -165,31 +164,47 @@ Office: A-293\\
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 
+
+
+
+
+
 \renewcommand{\refname}{Research Articles}
 \section{Research Articles}
 \nocite{*}
-\printbibliography[heading=none]   % o heading=subbibliography para título propio
-
+% \printbibliography[heading=none]   % o heading=subbibliography para título propio
+\printbibliography[heading=none]
 %\bibliographystyle{unsrturl}
 %\nocite{*}
 %\bibliography{publications}                       
 
+\section{Under Review}
+\cvitem{1.}{E. Farías, E. Alvarado, and J. Scavia. \textit{Contagion, Financial Distress and Divergent Beliefs}.}
+
+\cvitem{2.}{H. Araya, F. Plaza-Vega, and E. Alvarado. \textit{Drift parameter estimation for the noisy Ornstein-Uhlenbeck process driven by a Rosenblatt process}.}
+
+\cvitem{3.}{H. Araya, F. Plaza-Vega, and E. Alvarado. \textit{Drift parameter identification for the Ornstein-Uhlenbeck process driven by Ornstein-Uhlenbeck with small General Gaussian noise}.}
+
+
 \section{Working Papers}
 
-\cvitem{1.}{\textit{Simulation-based road characterization using LiDAR intensity: a
-random field approach for mining haul roads}. Joint work with David Godoy and Tomás Chávez. \newline \textbf{Status:} Manuscript in Final Preparation.} 
+\cvitem{1.}{D. Godoy, E. Alvarado, and T. Chávez.
+\textit{From LiDAR Intensity to Smart Maintenance: A Weibull Random-Field Framework for Diagnosis, Prognosis, and Decision Automation on Mining Haul Roads}.}
 
-\cvitem{2.}{\textit{Ali-Mikhail-Haq spatial copula}. Joint work with Moreno Bevilacqua and Christian Caamaño-Carrillo. \newline \textbf{Status:} Manuscript in Final Preparation.}
+\cvitem{2.}{M. Bevilacqua, E. Alvarado, and C. Caamaño-Carrillo.
+\textit{Ali-Mikhail-Haq spatial copula}.}
 
-\cvitem{3.}{\textit{Weibull random fields through Clayton spatial copula: An application to mining haul roads}. Joint work with Christian Caamaño-Carrillo and Luis Riquelme. \newline \textbf{Status:} Manuscript in Final Preparation.}
+\cvitem{3.}{E. Alvarado, C. Caamaño-Carrillo, and D. Godoy.
+\textit{Weibull random fields through Clayton spatial copula: An application to mining haul roads}.}
 
-\cvitem{4.}{\textit{Non-Standard Profit Efficiency in Banking: A copula approach}. Joint work with Vivian Cruz and Fernando Díaz. \newline \textbf{Status:} Manuscript Draft Completed - Final Estimation in Progress.}
+\cvitem{4.}{F. Días, E. Alvarado, and V. Cruz.
+\textit{Non-Standard Profit Efficiency in Banking: A copula approach}.}
 
-\cvitem{5.}{\textit{Drift parameter identification for the Ornstein-Uhlenbeck process driven by  Ornstein-Uhlenbeck with  small  General Gaussian  noise}. Joint work with Héctor Araya and Francisco Plaza-Vega. \newline \textbf{Status:} Under Review.}
+\cvitem{5.}{E. Alvarado, M.E. Farías, K. Martínez, and A. Alfaro.
+\textit{A CAPM Approach with Stable Error Distributions: Application to Brazilian Market Dynamics}.}
 
-\cvitem{6.}{\textit{A CAPM Approach with Stable Error Distributions: Application to Brazilian Market Dynamics}. Joint work with María Elisa Farías, Kerlyns Martínez and Alexis Alfaro. \newline \textbf{Status:} Early Stage - Preliminary Results and Draft Development.}
-
-\cvitem{7.}{\textit{Gumbel Spatial Copula}. Joint work with Moreno Bevilacqua and Christian Caamaño-Carrillo. \newline \textbf{Status:} Early Stage - Developing Theoretical Results.}
+\cvitem{6.}{E. Alvarado, M. Bevilacqua, and C. Caamaño-Carrillo.
+\textit{Gumbel Spatial Copula}.}
 
 \section{Grants and Projects}
 
@@ -238,9 +253,9 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 
 \cvitem{2024 -- 2024}{Scientific Committee Member, XLVII National Conference on Statistics, organised by the \href{https://www.soche.cl}{Chilean Statistical Society}.}
 
-\cvitem{2024 -- \hfill}{Internship Coordinator, Department of Industries, Campus Vitacura, \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}.}
+\cvitem{2024 -- 2025}{Internship Coordinator, Department of Industries, Campus Vitacura, \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}.}
 
-\cvitem{2024 -- \hfill}{Member of the academic committee for the development of a new undergraduate program: Bachelor's Degree in Data Science, \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}.}
+\cvitem{2024 -- 2025}{Member of the academic committee for the development of a new undergraduate program: Bachelor's Degree in Data Science, \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}.}
 
 \section{Students}
 \cvitem{2025}{José Donoso. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
@@ -282,7 +297,7 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 \href{mailto:carlos.montenegro@ifop.cl}{\texttt{carlos.montenegro@ifop.cl}}}
 
 \vfill
-\textit{Updated: Sep 2025}
+\textit{Updated: Jan 2026}
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
