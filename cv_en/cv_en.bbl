@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{ArayaPlazaAlvarado2025StatPapers}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=de6b1b832834a604ff95dd273424383e}{%
+           family={Araya},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=44a0aca8d38ff391ffd62279d227edc7}{%
+           family={Plaza-Vega},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=df93c7a7db4e61f26a3a47acfe2a325b}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a6857163ce32587c17e554567463610}
+      \strng{fullhash}{9a6857163ce32587c17e554567463610}
+      \strng{fullhashraw}{9a6857163ce32587c17e554567463610}
+      \strng{bibnamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authorbibnamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authornamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authorfullhash}{9a6857163ce32587c17e554567463610}
+      \strng{authorfullhashraw}{9a6857163ce32587c17e554567463610}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Papers}
+      \field{note}{Accepted for publication}
+      \field{sortyear}{2026}
+      \field{title}{Drift parameter identification for the {Ornstein-Uhlenbeck} process driven by {Ornstein-Uhlenbeck} with small {General Gaussian} noise}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
     \entry{Alvarado2025LAJAR}{article}{}{}
       \name{author}{4}{}{%
         {{hash=813c8caa1818b768b1e35338d9b9cfde}{%
