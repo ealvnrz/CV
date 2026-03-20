@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'cv_en.blg'
-[98] biber-MSWIN64:342> INFO - === 
-[129] Biber.pm:421> INFO - Reading 'cv_en.bcf'
-[236] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[249] Biber.pm:4487> INFO - Processing section 0
-[261] Biber.pm:4678> INFO - Looking for bibtex file 'publications.bib' for section 0
-[305] bibtex.pm:1713> INFO - LaTeX decoding ...
-[327] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
-[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[432] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[432] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[442] bbl.pm:676> INFO - Writing 'cv_en.bbl' with encoding 'UTF-8'
-[451] bbl.pm:779> INFO - Output to cv_en.bbl
+[163] biber-MSWIN64:342> INFO - === 
+[206] Biber.pm:421> INFO - Reading 'cv_en.bcf'
+[332] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[348] Biber.pm:4487> INFO - Processing section 0
+[361] Biber.pm:4678> INFO - Looking for bibtex file 'publications.bib' for section 0
+[423] bibtex.pm:1713> INFO - LaTeX decoding ...
+[447] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[568] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[568] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[580] bbl.pm:676> INFO - Writing 'cv_en.bbl' with encoding 'UTF-8'
+[588] bbl.pm:779> INFO - Output to cv_en.bbl
