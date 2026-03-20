@@ -1,13 +1,18 @@
 # Fdb version 4
-["biber cv_en"] 1773970285.34334 "cv_en.bcf" "cv_en.bbl" "cv_en" 1773970334.11649 0
-  "cv_en.bcf" 0 -1 0 "pdflatex"
+["biber cv_en"] 1774029222.27449 "cv_en.bcf" "cv_en.bbl" "cv_en" 1774029230.97286 0
+  "cv_en.bcf" 1774029230 108568 5e33ac17e03ed0f7f9cf21f26f1f4edc "pdflatex"
   "publications.bib" 1773411147 7771 42c4524f3bca5dbba15dc38ec46d68ab ""
   (generated)
   "cv_en.bbl"
   "cv_en.blg"
   (rewritten before read)
-["pdflatex"] 1773970332.82388 "c:/Users/ealva/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1773970334.11675 2
+["pdflatex"] 1774029229.60403 "c:/Users/ealva/Documents/GitHub/CV/cv_en/cv_en.tex" "cv_en.pdf" "cv_en" 1774029230.97334 0
   "c:/Users/ealva/Documents/GitHub/CV/cv_en/cv_en.tex" 1773411147 20124 aa16a7549e25c8720649c4f76663da5e ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1767901585 2971 def0b6c1f0b107b3b936def894055589 ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1767901993 2920 d63721872b8c77041b88e51b8f7c291d ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1767901993 2608 3139db8e1f9371a4f87c0715d17fa217 ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1767901993 3083 a707712f77b073b3833e4b1334a30e99 ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1767901993 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1767901998 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1767901815 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1767901815 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -33,6 +38,15 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands1.tfm" 1767901993 1140 0a3461c8ac1b92031890aa540c40b3b4 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0regular.tfm" 1767901993 1132 8aee78c25f591abde3c9ce09e694423f ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm" 1767901993 1204 3c27bf26105e0c1f2d31dba92f1c652d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1767901585 139826 3796482349bae544f13f54da58f9706d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb" 1767901585 118110 ec169e5afd6bdb1b89606eb422c899df ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1767901585 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb" 1767901585 186554 2eb6bd25fc5e008c37b6575e4923fdc7 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb" 1767901585 196446 823e77efd89b89faab342901e22eb237 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb" 1767901585 169670 061d76bd536389c258413384f964e74a ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1095.pfb" 1767901585 131321 e9e94fcef9045247f6b9cc82b53d5098 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1767901993 204258 aba4eee5a17f42be814f3d784d0cfb5a ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb" 1767901993 58496 4821a9fdf0d63b8442701160cb61c746 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1767902655 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf" 1767901334 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1767901328 146694 19c983001436d6e2e3055c77917d6e88 ""
@@ -201,9 +215,10 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1767903806 5587484 30eee748fa419a911c40b0c750dd21ba ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1767903951 3635703 701761ba9d86664ff7d90a677bc2cfd1 ""
   "c:/texlive/2025/texmf.cnf" 1767903789 713 e69b156964470283e0530f5060668171 ""
-  "cv_en.aux" 1773970333 330 6f568fb10b079e055205297b0442242f "pdflatex"
-  "cv_en.bbl" 0 -1 0 "biber cv_en"
-  "cv_en.out" 1773970333 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv_en.aux" 1774029230 2277 25a8558020a164182fb6f661ea029894 "pdflatex"
+  "cv_en.bbl" 1774029226 23776 796e26470d7d26030689850b6c649248 "biber cv_en"
+  "cv_en.out" 1774029230 1198 600ced975d77459dda4dbe11bc6b3237 "pdflatex"
+  "cv_en.run.xml" 1774029230 2314 e8fdd9095615653edb6c2b25633a9469 "pdflatex"
   "cv_en.tex" 1773411147 20124 aa16a7549e25c8720649c4f76663da5e ""
   "google-scholar.png" 1767905433 3116 24f284ed53099d863ff10dbf7e704b87 ""
   (generated)
@@ -212,4 +227,5 @@
   "cv_en.log"
   "cv_en.out"
   "cv_en.pdf"
+  "cv_en.run.xml"
   (rewritten before read)
