@@ -19,6 +19,84 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{AlvaradoCaamanoGodoy2026ISR}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=df93c7a7db4e61f26a3a47acfe2a325b}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e8ecc6ad47d63b1ca258ab1f27ae57be}{%
+           family={Caamaño-Carrillo},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ebedd80ed7d3387f10ee406707082d4e}{%
+           family={Godoy},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{fullhash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{fullhashraw}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{bibnamehash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{authorbibnamehash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{authornamehash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{authorfullhash}{c11002cc35ea18b62f7809b852aa8866}
+      \strng{authorfullhashraw}{c11002cc35ea18b62f7809b852aa8866}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Statistical Review}
+      \field{note}{forthcoming}
+      \field{title}{Weibull random fields for spatially dependent positive data: an application to mining haul roads}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{ArayaPlazaAlvarado2026SPL}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=de6b1b832834a604ff95dd273424383e}{%
+           family={Araya},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=44a0aca8d38ff391ffd62279d227edc7}{%
+           family={Plaza-Vega},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=df93c7a7db4e61f26a3a47acfe2a325b}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a6857163ce32587c17e554567463610}
+      \strng{fullhash}{9a6857163ce32587c17e554567463610}
+      \strng{fullhashraw}{9a6857163ce32587c17e554567463610}
+      \strng{bibnamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authorbibnamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authornamehash}{9a6857163ce32587c17e554567463610}
+      \strng{authorfullhash}{9a6857163ce32587c17e554567463610}
+      \strng{authorfullhashraw}{9a6857163ce32587c17e554567463610}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistics \& Probability Letters}
+      \field{title}{Drift parameter estimation for the noisy {Ornstein-Uhlenbeck} process driven by a {Rosenblatt} process}
+      \field{volume}{237}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{110803}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.spl.2026.110803
+      \endverb
+    \endentry
     \entry{ArayaPlazaAlvarado2025StatPapers}{article}{}{}
       \name{author}{3}{}{%
         {{hash=de6b1b832834a604ff95dd273424383e}{%
@@ -45,16 +123,20 @@
       \strng{authornamehash}{9a6857163ce32587c17e554567463610}
       \strng{authorfullhash}{9a6857163ce32587c17e554567463610}
       \strng{authorfullhashraw}{9a6857163ce32587c17e554567463610}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Statistical Papers}
-      \field{note}{Accepted for publication}
-      \field{sortyear}{2026}
+      \field{number}{49}
       \field{title}{Drift parameter identification for the {Ornstein-Uhlenbeck} process driven by {Ornstein-Uhlenbeck} with small {General Gaussian} noise}
-      \field{year}{2025}
+      \field{volume}{67}
+      \field{year}{2026}
       \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s00362-026-01804-3
+      \endverb
     \endentry
     \entry{Alvarado2025LAJAR}{article}{}{}
       \name{author}{4}{}{%
@@ -223,12 +305,8 @@
       \field{month}{1}
       \field{number}{4}
       \field{title}{Tooth {Loss} and {Caries} {Experience} of {Elderly} {Chileans} in the {Context} of the {COVID}-19 {Pandemic} in {Five} {Regions} of {Chile}}
-      \field{urlday}{25}
-      \field{urlmonth}{2}
-      \field{urlyear}{2023}
       \field{volume}{20}
       \field{year}{2023}
-      \field{urldateera}{ce}
       \true{nocite}
       \field{pages}{3001}
       \range{pages}{1}

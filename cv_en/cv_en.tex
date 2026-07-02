@@ -7,10 +7,12 @@
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 \usepackage[T1]{fontenc}
-%\usepackage{lmodern}
+\usepackage{lmodern}
 \usepackage[english]{babel}  % FIXME: using spanish breaks moderncv
 \usepackage{bold-extra}
 \usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{ragged2e}
 \usepackage{lastpage}
 \usepackage{url}
 \usepackage{enumitem}
@@ -29,6 +31,7 @@
 
 \addbibresource{publications.bib}
 
+\AtEveryBibitem{\clearfield{urldate}}
 
 \DefineBibliographyStrings{english}{%
   bibliography = {Research Articles},
@@ -37,7 +40,18 @@
 
 \renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \definecolor{color1}{rgb}{0.52, 0.52, 0.51}
+\definecolor{sectioncolor}{HTML}{333333}
+\definecolor{cvlinkcolor}{HTML}{404040}
 \setlength{\hintscolumnwidth}{2cm}
+
+\newcommand{\cviconsep}{\hspace{0.55em}}
+\newcommand{\cvsem}[1]{\textit{#1}}
+\newcommand{\cvuni}[2]{\cvitem{}{\href{#1}{\textbf{#2}}}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifstrequal{#1}{Alvarado}{\textbf{#1}}{#1}}
+\DeclareFieldFormat[article]{title}{\mkbibemph{#1\isdot}}
+\DeclareFieldFormat[article]{journaltitle}{\mkbibemph{#1}}
 
 
 % --- etiqueta numérica: 1. 2. 3. ---
@@ -49,6 +63,7 @@
 
 \defbibenvironment{bibliography}
   {
+    \RaggedRight
     \list               
       {\printtext[labelnumberwidth]{%
          \printfield{prefixnumber}%
@@ -66,7 +81,7 @@
 
 
 \renewcommand*{\sectionfont}{\bfseries\scshape}
-\renewcommand*{\sectionstyle}[1]{{\sectionfont\textcolor{black}{#1}}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\textcolor{sectioncolor}{#1}}}
 
 
 % adjust the page margins
@@ -110,11 +125,11 @@
 %----------------------------------------------------------------------------------
 \AtEndPreamble{
   \hypersetup{
-    colorlinks=false,
-    frenchlinks=false,
-    urlcolor=red,
-    urlbordercolor=cyan,
-    pdfborder = {1 1 1}
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=cvlinkcolor,
+    citecolor=cvlinkcolor,
+    pdfborder={0 0 0}
 }}
 
 \nopagenumbers{}
@@ -126,14 +141,14 @@
 \fancyhead[R]{\thepage\  of \pageref{LastPage}}
 \begin{document}
 \thispagestyle{empty}
-{\bfseries \LARGE Eloy Alvarado Narváez}\\
-\href{https://mat.uc.cl/}{Departamento de Estadística\\ Pontificia Universidad Católica de Chile} \\ Santiago, Chile.\\
-Office: 137\\
-\href{mailto:eloy.alvarado@uc.cl}{\faIcon[regular]{envelope}}
-\href{https://github.com/ealvnrz}{\faIcon{github}}
-\href{https://www.linkedin.com/in/ealvnrz/}{\faIcon{linkedin}}
-\href{https://scholar.google.cl/citations?user=iO2zYZoAAAAJ&hl=es}{\gscholarIcon} 
-\href{https://orcid.org/0000-0001-7522-2327}{\faOrcid}
+{\bfseries \LARGE Eloy Alvarado Narváez}\\[0.35em]
+\href{https://mat.uc.cl/}{Departamento de Estadística\\ Pontificia Universidad Católica de Chile}\\[0.25em]
+Santiago, Chile \textbullet{} Office 137\\[0.5em]
+\href{mailto:eloy.alvarado@uc.cl}{\faIcon[regular]{envelope}}%
+\cviconsep\href{https://github.com/ealvnrz}{\faIcon{github}}%
+\cviconsep\href{https://www.linkedin.com/in/ealvnrz/}{\faIcon{linkedin}}%
+\cviconsep\href{https://scholar.google.cl/citations?user=iO2zYZoAAAAJ&hl=es}{\gscholarIcon}%
+\cviconsep\href{https://orcid.org/0000-0001-7522-2327}{\faOrcid}
 
 %\makecvtitle
 \section{Employment}
@@ -143,7 +158,7 @@ Office: 137\\
 \cvitemwithcomment{2022 -- 2022}{Lecturer, \href{http://www.usm.cl}{Universidad Técnica Federico Santa María}}{Santiago, Chile.}
 \cvitemwithcomment{2021 -- 2022}{External Adviser, \href{http://www.ifop.cl}{Instituto de Fomento Pesquero}}{Valparaíso, Chile.}
 \cvitemwithcomment{2019 -- 2022}{Lecturer, \href{https://www.uv.cl/}{Universidad de Valparaíso}}{Valparaíso, Chile.}
-\cvitemwithcomment{2017 -- 2017}{Lecturer, \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}{Valparaíso,Chile.}
+\cvitemwithcomment{2017 -- 2017}{Lecturer, \href{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}{Valparaíso, Chile.}
 \cvitemwithcomment{2016 -- 2017}{Statistical Analyst, \href{http://www.equifax.com}{Equifax Inc.}}{Santiago, Chile. / Atlanta, US.}
 
 \section{Education}
@@ -178,32 +193,6 @@ Office: 137\\
 %\nocite{*}
 %\bibliography{publications}                       
 
-\section{Under Review}
-\cvitem{1.}{E. Farías, E. Alvarado, and J. Scavia. \textit{Contagion, Financial Distress and Divergent Beliefs}.}
-
-\cvitem{2.}{H. Araya, F. Plaza-Vega, and E. Alvarado. \textit{Drift parameter estimation for the noisy Ornstein-Uhlenbeck process driven by a Rosenblatt process}.}
-
-
-\section{Working Papers}
-
-\cvitem{1.}{D. Godoy, E. Alvarado, and T. Chávez.
-\textit{From LiDAR Intensity to Smart Maintenance: A Weibull Random-Field Framework for Diagnosis, Prognosis, and Decision Automation on Mining Haul Roads}.}
-
-\cvitem{2.}{M. Bevilacqua, E. Alvarado, and C. Caamaño-Carrillo.
-\textit{Ali-Mikhail-Haq spatial copula}.}
-
-\cvitem{3.}{E. Alvarado, C. Caamaño-Carrillo, and D. Godoy.
-\textit{Weibull random fields through Clayton spatial copula: An application to mining haul roads}.}
-
-\cvitem{4.}{F. Días, E. Alvarado, and V. Cruz.
-\textit{Non-Standard Profit Efficiency in Banking: A copula approach}.}
-
-\cvitem{5.}{E. Alvarado, M.E. Farías, K. Martínez, and A. Alfaro.
-\textit{A CAPM Approach with Stable Error Distributions: Application to Brazilian Market Dynamics}.}
-
-\cvitem{6.}{E. Alvarado, M. Bevilacqua, and C. Caamaño-Carrillo.
-\textit{Gumbel Spatial Copula}.}
-
 \section{Grants and Projects}
 
 \cvitem{2025 -- 2027}{Spatial extension of the Gumbel copula: applications to some non-Gaussian random fields, Fondecyt de Iniciación 2025 ANID No.~11250479.}
@@ -216,42 +205,38 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 
 \section{Teaching}
 
-% PUC
-\cvitem{}{\href{https://www.uc.cl/}{\textbf{\textsc{Pontificia Universidad Católica de Chile}}}}
-\cvitem{\texttt{EYP2307}}{Regression Analysis. \hfill \textit{Taught in 2026/01}}
+\cvuni{https://www.uc.cl/}{Pontificia Universidad Católica de Chile}
+\cvitem{\texttt{EYP2307}}{Regression Analysis. \hfill \cvsem{Sem.~I 2026}}
 
-% USM
-\cvitem{}{\href{https://www.usm.cl/}{\textbf{\textsc{Universidad Técnica Federico Santa María}}}}
-\cvitem{\texttt{ICN292}}{Management Information Systems. \hfill \textit{Taught in 2023/01, 2024/01--02, 2025/01}}
-\cvitem{\texttt{PII402}}{Stochastic Processes (Postgraduate).\hfill \textit{Taught in 2023/02, 2024/01, 2025/01}}
-\cvitem{\texttt{IND163C}}{Business Analytics. \hfill \textit{Taught in 2022/02, 2023/01}}
+\cvuni{https://www.usm.cl/}{Universidad Técnica Federico Santa María}
+\cvitem{\texttt{ICN292}}{Management Information Systems. \hfill \cvsem{Sem.~I 2023; Sem.~I--II 2024; Sem.~I 2025}}
+\cvitem{\texttt{PII402}}{Stochastic Processes (Postgraduate). \hfill \cvsem{Sem.~II 2023; Sem.~I 2024; Sem.~I 2025}}
+\cvitem{\texttt{IND163C}}{Business Analytics. \hfill \cvsem{Sem.~II 2022; Sem.~I 2023}}
 
-% UNAB
-\cvitem{}{\href{https://www.unab.cl/}{\textbf{\textsc{Universidad Andrés Bello}}}}
-\cvitem{\texttt{CIND211}}{Stochastic Networks and Systems. \hfill \textit{Taught in 2025/02}}
-\cvitem{\texttt{ATDFI102}}{Introduction to programming. \hfill \textit{Taught in 2024/01,2025/01}}
-\cvitem{\texttt{CIND217}}{Business intelligence. \hfill \textit{Taught in 2024/01, 2025/01}}
-\cvitem{\texttt{IICGP01}}{Business intelligence. \hfill \textit{Taught in 2023/02}}
+\cvuni{https://www.unab.cl/}{Universidad Andrés Bello}
+\cvitem{\texttt{CIND211}}{Stochastic Networks and Systems. \hfill \cvsem{Sem.~II 2025}}
+\cvitem{\texttt{ATDFI102}}{Introduction to programming. \hfill \cvsem{Sem.~I 2024; Sem.~I 2025}}
+\cvitem{\texttt{CIND217}}{Business intelligence. \hfill \cvsem{Sem.~I 2024; Sem.~I 2025}}
+\cvitem{\texttt{IICGP01}}{Business intelligence. \hfill \cvsem{Sem.~II 2023}}
 
+\cvuni{https://www.uv.cl/}{Universidad de Valparaíso}
+\cvitem{\texttt{IEST422}}{Statistical Quality Control. \hfill \cvsem{Sem.~II 2022}}
+\cvitem{\texttt{LFIS325}}{Statistics for Physical Sciences. \hfill \cvsem{Sem.~II 2022; Sem.~II 2021; Sem.~II 2020}}
+\cvitem{\texttt{IECD411}}{Machine Learning. \hfill \cvsem{Sem.~I 2022}}
+\cvitem{\texttt{IEST414}}{Time Series. \hfill \cvsem{Sem.~I 2022}}
+\cvitem{\texttt{IECD415}}{Multivariate Methods. \hfill \cvsem{Sem.~I 2022}}
+\cvitem{\texttt{IECD325}}{Linear Models and Experimental Design. \hfill \cvsem{Sem.~II 2021}}
+\cvitem{\texttt{IEST412}}{Sampling Theory II. \hfill \cvsem{Sem.~I--II 2021; Sem.~I 2020}}
+\cvitem{\texttt{IEST322}}{Sampling Theory I. \hfill \cvsem{Sem.~I 2021; Sem.~II 2020; Sem.~II 2019}}
+\cvitem{\texttt{IEC311}}{Probability and Statistics. \hfill \cvsem{Sem.~I 2021; Sem.~I 2020}}
+\cvitem{\texttt{IEST213}}{Statistical Methods. \hfill \cvsem{Sem.~II 2019}}
 
-% UV
-\cvitem{}{\href{https://www.uv.cl/}{\textbf{\textsc{Universidad de Valparaíso}}}}
-\cvitem{\texttt{IEST422}}{Statistical Quality Control. \hfill \textit{Taught in 2022/02}}
-\cvitem{\texttt{LFIS325}}{Statistics for Physical Sciences. \hfill \textit{Taught in 2022/02, 2021/02, 2020/02}}
-\cvitem{\texttt{IECD411}}{Machine Learning. \hfill \textit{Taught in 2022/01}}
-\cvitem{\texttt{IEST414}}{Time Series. \hfill \textit{Taught in 2022/01}}
-\cvitem{\texttt{IECD415}}{Multivariate Methods. \hfill \textit{Taught in 2022/01}}
-\cvitem{\texttt{IECD325}}{Linear Models and Experimental Design. \hfill \textit{Taught in 2021/02}}
-\cvitem{\texttt{IEST412}}{Sampling Theory II. \hfill \textit{Taught in 2021/01-02, 2020/01}}
-\cvitem{\texttt{IEST322}}{Sampling Theory I. \hfill \textit{Taught in 2021/01, 2020/02, 2019/02}}
-\cvitem{\texttt{IEC311}}{Probability and Statistics. \hfill \textit{Taught in 2021/01, 2020/01}}
-\cvitem{\texttt{IEST213}}{Statistical Methods. \hfill \textit{Taught in 2019/02}}
-
-% PUCV
-\cvitem{}{\href{http://www.pucv.cl}{\textbf{\textsc{Pontificia Universidad Católica de Valparaíso}}}}
-\cvitem{\texttt{EST205}}{Probability and Statistics. \hfill \textit{Taught in 2017/01-02}}
+\cvuni{http://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}
+\cvitem{\texttt{EST205}}{Probability and Statistics. \hfill \cvsem{Sem.~I--II 2017}}
 
 \section{Academic Service}
+
+\cvitem{2026 -- 2027}{Director, Board of Directors, \href{https://www.soche.cl}{Chilean Statistical Society} (SOCHE).}
 
 \cvitem{2024 -- 2024}{Scientific Committee Member, XLVII National Conference on Statistics, organised by the \href{https://www.soche.cl}{Chilean Statistical Society}.}
 
@@ -260,26 +245,20 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 \cvitem{2024 -- 2025}{Member of the academic committee for the development of a new undergraduate program: Bachelor's Degree in Data Science, \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}.}
 
 \section{Students}
-\cvitem{2025}{José Donoso. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2025}{Wilson Godoy. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2025}{Isadora Araya. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2025}{Gabriela Estrada. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2025}{Fernanda Pincheira. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2025}{Benjamín Mardones. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2024}{Luis Riquelme. Master in Mathematics.\href{https://dmat.ciencias.ubiobio.cl/}{Universidad del Bío-Bío}. Co-Advisor.}
-\cvitem{2024}{Cristóbal Retamal. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2024}{Nicolás Bravo. Industrial Engineering. \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor.}
-\cvitem{2023}{Ricardo Menares. Statistics and Data Science Engineering. \href{https://www.uv.cl/}{Universidad de Valparaíso}. Co-advisor.}
-\cvitem{2022}{Cristóbal Collao. Statistical Engineering. \href{https://www.uv.cl/}{Universidad de Valparaíso}. Co-advisor.}
+\cvitem{2025}{Industrial Engineering, \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor: José Donoso; Wilson Godoy; Isadora Araya; Gabriela Estrada; Fernanda Pincheira; Benjamín Mardones.}
+\cvitem{2024}{Industrial Engineering, \href{https://www.industrias.usm.cl/}{Universidad Técnica Federico Santa María}. Advisor: Cristóbal Retamal; Nicolás Bravo.}
+\cvitem{2024}{Luis Riquelme (Master in Mathematics, \href{https://dmat.ciencias.ubiobio.cl/}{Universidad del Bío-Bío}). Co-Advisor.}
+\cvitem{2023}{Ricardo Menares (Statistics and Data Science Engineering, \href{https://www.uv.cl/}{Universidad de Valparaíso}). Co-advisor.}
+\cvitem{2022}{Cristóbal Collao (Statistical Engineering, \href{https://www.uv.cl/}{Universidad de Valparaíso}). Co-advisor.}
 
-\newpage
-\section{Scientific Events}
+\section{Conference Presentations}
 
-\cvitem{Mar 2026}{\textit{``Spatial copula models for non-gaussian random fields''}. Contributed session (Spatial processes and applications), 17th Latin American Congress of Probability and Mathematical Statistics (CLAPEM 17), Montevideo. Organizer: \href{https://clapem17.cmat.edu.uy/}{CLAPEM 17}}
+\cvitem{Jun 2026}{\textit{``Archimedean-like spatial copulas for non-gaussian random fields''}. Poster, 12th International Conference on Spatio-Temporal Modelling (METMA XII), Zaragoza. Organizer: \href{https://metma12.unizar.es/}{Universidad de Zaragoza}}
+\cvitem{Mar 2026}{\textit{``Spatial copula models for non-gaussian random fields''}. Contributed session (Spatial processes and applications), 17th Latin American Congress of Probability and Mathematical Statistics (CLAPEM 17), Montevideo. Organizer: \href{https://www.ime.usp.br/~slapem/}{Latin American Society of Probability and Mathematical Statistics (SLAPEM)}}
 \cvitem{Nov 2025}{\textit{``Copula-Based Spatial Random Fields: Theory and Applications''}. \href{https://www.ubiobio.cl/w/}{Universidad del Bío-Bío}. Organizer: \href{https://www.ubiobio.cl/w/}{Universidad del Bío-Bío}}
 \cvitem{Sep 2025}{\textit{``Non-Standard Profit Efficiency in Banking: A Copula Approach''}. Campus Vitacura Colloquium. Organizer: \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}}
 \cvitem{Mar 2025}{\textit{``2nd Workshop: Reproducible Research with R''}. Open Science Webinar USM. Organizer: \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}}
-\cvitem{Nov 2024}{\textit{``Weibull random fields through Clayton spatial copula An application to mining haul roads''}. III Conference on Geostatistics and Spatio-Temporal Statistics: Theory and Applications. Organizer:\href{https://www.usm.cl}{Universidad Técnica Federico Santa María}}
+\cvitem{Nov 2024}{\textit{``Weibull random fields through Clayton spatial copula An application to mining haul roads''}. III Conference on Geostatistics and Spatio-Temporal Statistics: Theory and Applications. Organizer: \href{https://www.usm.cl}{Universidad Técnica Federico Santa María}}
 \cvitem{Nov 2024}{\textit{``Weibull random fields through Clayton spatial copula An application to mining haul roads''}. III Statistical Engineering Conference. Organizer: \href{https://www.usach.cl}{Universidad de Santiago de Chile}}
 \cvitem{Oct 2024}{\textit{``Archimedean-like spatial copulas''}. XLVII National Conference on Statistics. Organizer: \href{https://www.soche.cl}{Chilean Statistical Society}}
 \cvitem{Oct 2024}{\textit{``Analysis of the Intention to Use ICT in Industrial Engineering: Integrating UTAUT and Structural Equation Models''}. XXXVI Chilean Congress of Engineering Education. Organizer: \href{https://www.sochedi.cl}{Chilean Society of Engineering Education}}
@@ -291,17 +270,8 @@ of the COVID-19 pandemic in the Chilean population, ANID, Reference No. COVID076
 \cvitem{Dec 2022}{\textit{``A flexible Clayton-like spatial copula with application to bounded support data''}. III Statistics Workshop: Graduate Contributions and Scientific initiation. Organizer: \href{https://www.soche.cl}{Chilean Statistical Society}}
 \cvitem{Oct 2015}{\textit{``Stochastics differential equations in mathematical finance: The Black-Scholes Model''}. XXI Valparaíso Statistical Week. \href{https://www.pucv.cl}{Pontificia Universidad Católica de Valparaíso}}
 
-
-\section{References}
-\cvlistitem{Moreno Bevilacqua, Associate Professor at \href{https:/www.uai.cl}{Universidad Adolfo Ibañez}.  \href{mailto:moreno.bevilacqua@uai.cl}{\texttt{moreno.bevilacqua@uai.cl}}}
-\cvlistitem{Christian Caamaño, Associate professor at \href{https://www.ubb.cl}{Universidad del Bío-Bío}. \href{mailto:chcaaman@ubiobio.cl}{\texttt{chcaaman@ubiobio.cl}}}
-\cvlistitem{Oscar Saavedra, Associate Professor at \href{https://www.usm.cl/}{Universidad Técnica Federico Santa María}.
-\href{mailto:oscar.saavedra@usm.cl}{\texttt{oscar.saavedra@usm.cl}}}
-\cvlistitem{Carlos Montenegro, Head of Fisheries Research at \href{https://www.ifop.cl}{IFOP}.
-\href{mailto:carlos.montenegro@ifop.cl}{\texttt{carlos.montenegro@ifop.cl}}}
-
 \vfill
-\textit{Updated: Mar 2026}
+\textit{Updated: Jul 2026}
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
